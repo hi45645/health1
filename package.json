@@ -1,0 +1,31 @@
+{
+  "name": "health1",
+  "version": "1.0.0",
+  "description": "Bilingual Sumukha Dental Clinic website",
+  "scripts": {
+    "test": "playwright test",
+    "start": "node server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hi45645/health1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hi45645/health1/issues"
+  },
+  "homepage": "https://github.com/hi45645/health1#readme",
+  "engines": {
+    "node": ">=24"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.65.1"
+  },
+  "dependencies": {
+    "sharp": "0.35.5"
+  }
+}

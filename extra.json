@@ -1,0 +1,32 @@
+{
+  "en": {
+    "doctor": "Contact the clinic to find out who is available for your visit.",
+    "gallery": "An illustrative view of a dental consultation.",
+    "privacy": "We use your name, phone number and preferred visit time to respond to your appointment request. We store your language preference in a cookie. In-progress appointment details stay in the current browser tab until you submit the form or close the tab. Call the clinic with questions about your information.",
+    "terms": "An appointment request is subject to confirmation by the clinic. For urgent care, contact a local emergency service.",
+    "accessibility": "Use the language links in the header to switch between English and Kannada. If you have trouble using the online form, you can call the clinic.",
+    "image": "Illustration of a dentist speaking with a patient during a consultation",
+    "feature": "Request a visit online or call us to plan your appointment.",
+    "contentPending": "We’ll add more information after review. Please call the clinic if you have a question.",
+    "invalidTime": "Choose a valid time.",
+    "invalidName": "Enter a name of 100 characters or fewer.",
+    "invalidReference": "Enter the reference shown when you submitted your request.",
+    "missingReference": "We couldn’t find a request with that reference.",
+    "confirmed": "The clinic confirmed your appointment."
+  },
+  "kn": {
+    "doctor": "ನಿಮ್ಮ ಭೇಟಿಗೆ ಯಾವ ವೈದ್ಯರು ಲಭ್ಯರಿದ್ದಾರೆ ಎಂದು ತಿಳಿಯಲು ಕ್ಲಿನಿಕ್‌ಗೆ ಕರೆ ಮಾಡಿ.",
+    "gallery": "ದಂತ ಸಮಾಲೋಚನೆಯ ಸಾಂದರ್ಭಿಕ ಚಿತ್ರ.",
+    "privacy": "ನಿಮ್ಮ ಭೇಟಿಯ ಕೋರಿಕೆಗೆ ಪ್ರತಿಕ್ರಿಯಿಸಲು ನಿಮ್ಮ ಹೆಸರು, ದೂರವಾಣಿ ಸಂಖ್ಯೆ ಮತ್ತು ನೀವು ಬಯಸಿದ ಸಮಯವನ್ನು ಬಳಸುತ್ತೇವೆ. ನಿಮ್ಮ ಭಾಷೆಯ ಆಯ್ಕೆ ಕುಕಿಯಲ್ಲಿ ಉಳಿಯುತ್ತದೆ. ಫಾರ್ಮ್ ಸಲ್ಲಿಸುವವರೆಗೆ ಅಥವಾ ಟ್ಯಾಬ್ ಮುಚ್ಚುವವರೆಗೆ ನೀವು ನಮೂದಿಸಿದ ವಿವರಗಳು ಈ ಬ್ರೌಸರ್ ಟ್ಯಾಬ್‌ನಲ್ಲೇ ಉಳಿಯುತ್ತವೆ. ನಿಮ್ಮ ಮಾಹಿತಿಯ ಕುರಿತು ಪ್ರಶ್ನೆಗಳಿದ್ದರೆ ಕ್ಲಿನಿಕ್‌ಗೆ ಕರೆ ಮಾಡಿ.",
+    "terms": "ಭೇಟಿಯ ಕೋರಿಕೆಯನ್ನು ಕ್ಲಿನಿಕ್ ದೃಢಪಡಿಸಬೇಕು. ತುರ್ತು ಚಿಕಿತ್ಸೆಗೆ ಸ್ಥಳೀಯ ತುರ್ತು ಸೇವೆಯನ್ನು ಸಂಪರ್ಕಿಸಿ.",
+    "accessibility": "ಪುಟದ ಮೇಲ್ಭಾಗದಲ್ಲಿರುವ ಭಾಷಾ ಆಯ್ಕೆಗಳಿಂದ ಇಂಗ್ಲಿಷ್ ಮತ್ತು ಕನ್ನಡದ ನಡುವೆ ಬದಲಾಯಿಸಬಹುದು. ಆನ್‌ಲೈನ್ ಫಾರ್ಮ್ ಬಳಸಲು ತೊಂದರೆಯಾದರೆ ಕ್ಲಿನಿಕ್‌ಗೆ ಕರೆ ಮಾಡಿ.",
+    "image": "ದಂತ ಸಮಾಲೋಚನೆಯ ಸಮಯದಲ್ಲಿ ರೋಗಿಯೊಂದಿಗೆ ಮಾತನಾಡುತ್ತಿರುವ ದಂತವೈದ್ಯರ ಸಾಂದರ್ಭಿಕ ಚಿತ್ರ",
+    "feature": "ಭೇಟಿಗಾಗಿ ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ ಕೋರಿಕೆ ಸಲ್ಲಿಸಿ ಅಥವಾ ನಮಗೆ ಕರೆ ಮಾಡಿ.",
+    "contentPending": "ಪರಿಶೀಲನೆಯ ನಂತರ ಹೆಚ್ಚಿನ ಮಾಹಿತಿ ಸೇರಿಸುತ್ತೇವೆ. ಪ್ರಶ್ನೆಗಳಿದ್ದರೆ ಕ್ಲಿನಿಕ್‌ಗೆ ಕರೆ ಮಾಡಿ.",
+    "invalidTime": "ಮಾನ್ಯ ಸಮಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+    "invalidName": "100 ಅಕ್ಷರಗಳನ್ನು ಮೀರದ ಹೆಸರನ್ನು ನಮೂದಿಸಿ.",
+    "invalidReference": "ಕೋರಿಕೆ ಸಲ್ಲಿಸಿದಾಗ ತೋರಿಸಿದ ಉಲ್ಲೇಖ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ.",
+    "missingReference": "ಈ ಉಲ್ಲೇಖ ಸಂಖ್ಯೆಯ ಕೋರಿಕೆ ಸಿಗಲಿಲ್ಲ.",
+    "confirmed": "ಕ್ಲಿನಿಕ್ ನಿಮ್ಮ ಭೇಟಿಯನ್ನು ದೃಢಪಡಿಸಿದೆ."
+  }
+}

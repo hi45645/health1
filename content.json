@@ -1,0 +1,150 @@
+{
+  "en": {
+    "home": {
+      "title": "Dental care close to home",
+      "description": "Welcome to Sumukha Dental Clinic in Chintamani. Explore the clinic, find answers to common questions, or send us an appointment request."
+    },
+    "about": {
+      "title": "About Sumukha Dental Clinic",
+      "description": "Contact the clinic to ask about availability and what to bring to your visit."
+    },
+    "treatments": {
+      "title": "Dental treatments",
+      "description": "Learn about common dental treatments and discuss the options with your dentist.",
+      "items": [
+        {
+          "title": "Dental consultation",
+          "description": "During a consultation, the dentist asks about your concerns and checks your teeth and gums. The dentist may recommend an X-ray if it can help explain a problem or guide treatment."
+        },
+        {
+          "title": "Teeth cleaning and scaling",
+          "description": "Professional cleaning removes plaque and hardened deposits that brushing alone cannot remove. The dentist can advise you on cleaning at home and when to return."
+        },
+        {
+          "title": "Dental fillings",
+          "description": "A filling repairs a tooth damaged by decay or a small break. The material and approach depend on the tooth and the extent of the damage."
+        },
+        {
+          "title": "Root canal treatment",
+          "description": "Root canal treatment may help save a tooth when the tissue inside it is inflamed or infected. The dentist removes the affected tissue, cleans the space inside the tooth, and seals it."
+        },
+        {
+          "title": "Dental crowns",
+          "description": "A crown is a cover shaped to fit over a tooth. A dentist may recommend one when a tooth is weakened and needs protection or support for chewing."
+        },
+        {
+          "title": "Tooth extraction",
+          "description": "A dentist may recommend removing a tooth that cannot be predictably repaired. The dentist can explain the alternatives, what the procedure involves, and how to care for the area afterward."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "description": "Find answers about arranging and preparing for a dental visit.",
+      "items": [
+        {
+          "title": "What should I bring to my first visit?",
+          "description": "Bring a list of the medicines you take and details of any allergies. Bring previous dental records or X-rays if they are available."
+        },
+        {
+          "title": "How will I know if my appointment is confirmed?",
+          "description": "Submitting the form sends a request. The clinic will contact you about availability and confirm the appointment time."
+        },
+        {
+          "title": "What if I need to change my appointment?",
+          "description": "Call the clinic as soon as you know you need a different time. Have the name and phone number you used to request the appointment handy."
+        },
+        {
+          "title": "Will I need an X-ray at my first visit?",
+          "description": "Your dentist will decide after asking about your concerns and examining your mouth. Mention any recent dental X-rays you have had."
+        },
+        {
+          "title": "Can I ask about costs before treatment?",
+          "description": "Yes. Ask the clinic about consultation charges when arranging your visit. After an examination, you can discuss the proposed treatment and ask for an estimate before deciding."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact the clinic",
+      "description": "Call the clinic for directions or to ask about your visit."
+    },
+    "appointment": {
+      "title": "Request an appointment",
+      "description": "Share your contact details and preferred visit time. The clinic will contact you to confirm availability."
+    }
+  },
+  "kn": {
+    "home": {
+      "title": "ನಿಮ್ಮ ಸಮೀಪದಲ್ಲೇ ದಂತ ಆರೈಕೆ",
+      "description": "ಚಿಂತಾಮಣಿಯ ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯಕ್ಕೆ ಸ್ವಾಗತ. ಚಿಕಿತ್ಸಾಲಯದ ಬಗ್ಗೆ ತಿಳಿಯಿರಿ, ಸಾಮಾನ್ಯ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರ ಪಡೆಯಿರಿ ಅಥವಾ ಭೇಟಿಗಾಗಿ ವಿನಂತಿ ಕಳುಹಿಸಿ."
+    },
+    "about": {
+      "title": "ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯದ ಬಗ್ಗೆ",
+      "description": "ಭೇಟಿಗೆ ಸಮಯ ಲಭ್ಯವಿದೆಯೇ ಮತ್ತು ಏನು ತರಬೇಕು ಎಂದು ತಿಳಿಯಲು ಕ್ಲಿನಿಕ್‌ಗೆ ಕರೆ ಮಾಡಿ."
+    },
+    "treatments": {
+      "title": "ದಂತ ಚಿಕಿತ್ಸೆಗಳು",
+      "description": "ಸಾಮಾನ್ಯ ದಂತ ಚಿಕಿತ್ಸೆಗಳ ಬಗ್ಗೆ ತಿಳಿದುಕೊಳ್ಳಿ. ನಿಮಗೆ ಸೂಕ್ತವಾದ ಆಯ್ಕೆಗಳನ್ನು ದಂತವೈದ್ಯರೊಂದಿಗೆ ಚರ್ಚಿಸಿ.",
+      "items": [
+        {
+          "title": "ದಂತ ತಪಾಸಣೆ ಮತ್ತು ಸಮಾಲೋಚನೆ",
+          "description": "ಸಮಾಲೋಚನೆಯ ವೇಳೆ ದಂತವೈದ್ಯರು ನಿಮ್ಮ ತೊಂದರೆಗಳ ಬಗ್ಗೆ ಕೇಳಿ, ಹಲ್ಲು ಮತ್ತು ಒಸಡುಗಳನ್ನು ಪರೀಕ್ಷಿಸುತ್ತಾರೆ. ಸಮಸ್ಯೆಯನ್ನು ಗುರುತಿಸಲು ಅಥವಾ ಚಿಕಿತ್ಸೆಯನ್ನು ನಿರ್ಧರಿಸಲು ನೆರವಾಗುವುದಾದರೆ ಎಕ್ಸ್‌ರೇ ತೆಗೆಸಲು ಸೂಚಿಸಬಹುದು."
+        },
+        {
+          "title": "ಹಲ್ಲು ಸ್ವಚ್ಛಗೊಳಿಸುವಿಕೆ ಮತ್ತು ಸ್ಕೇಲಿಂಗ್",
+          "description": "ಹಲ್ಲುಜ್ಜುವುದರಿಂದ ಮಾತ್ರ ಹೋಗದ ಜಿಗುಟಾದ ಪದರ ಮತ್ತು ಗಟ್ಟಿಯಾದ ನಿಕ್ಷೇಪಗಳನ್ನು ದಂತವೈದ್ಯರು ಸ್ವಚ್ಛಗೊಳಿಸುತ್ತಾರೆ. ಮನೆಯಲ್ಲಿ ಹಲ್ಲುಗಳನ್ನು ಹೇಗೆ ಸ್ವಚ್ಛವಾಗಿಟ್ಟುಕೊಳ್ಳಬೇಕು ಮತ್ತು ಮುಂದಿನ ಬಾರಿ ಯಾವಾಗ ಬರಬೇಕು ಎಂಬುದನ್ನೂ ತಿಳಿಸುತ್ತಾರೆ."
+        },
+        {
+          "title": "ಹಲ್ಲಿನ ಕುಳಿ ತುಂಬಿಸುವ ಚಿಕಿತ್ಸೆ",
+          "description": "ಹಲ್ಲು ಹುಳುಕಾಗಿದ್ದರೆ ಅಥವಾ ಅದರ ಸಣ್ಣ ಭಾಗ ಮುರಿದಿದ್ದರೆ, ಹಾನಿಯಾದ ಭಾಗವನ್ನು ತುಂಬಿಸಿ ಸರಿಪಡಿಸಬಹುದು. ಬಳಸುವ ವಸ್ತು ಮತ್ತು ಚಿಕಿತ್ಸೆಯ ವಿಧಾನವು ಹಲ್ಲಿನ ಸ್ಥಿತಿ ಹಾಗೂ ಹಾನಿಯ ಪ್ರಮಾಣವನ್ನು ಅವಲಂಬಿಸಿರುತ್ತದೆ."
+        },
+        {
+          "title": "ಹಲ್ಲಿನ ಬೇರುನಾಳ ಚಿಕಿತ್ಸೆ",
+          "description": "ಹಲ್ಲಿನ ಒಳಗಿನ ಅಂಗಾಂಶಕ್ಕೆ ಸೋಂಕು ಅಥವಾ ಉರಿಯೂತ ಉಂಟಾದಾಗ, ಬೇರುನಾಳ ಚಿಕಿತ್ಸೆಯಿಂದ ಹಲ್ಲನ್ನು ಉಳಿಸಲು ಸಾಧ್ಯವಾಗಬಹುದು. ದಂತವೈದ್ಯರು ಹಾನಿಗೊಳಗಾದ ಅಂಗಾಂಶವನ್ನು ತೆಗೆದು, ಒಳಭಾಗವನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಿ ಮುಚ್ಚುತ್ತಾರೆ."
+        },
+        {
+          "title": "ಹಲ್ಲಿನ ಕವಚ",
+          "description": "ಹಲ್ಲಿನ ಕವಚವನ್ನು ಹಲ್ಲಿನ ಮೇಲೆ ಸರಿಯಾಗಿ ಕೂರುವಂತೆ ತಯಾರಿಸಲಾಗುತ್ತದೆ. ಹಲ್ಲು ದುರ್ಬಲವಾಗಿದ್ದರೆ ಅದನ್ನು ಕಾಪಾಡಲು ಅಥವಾ ಆಹಾರವನ್ನು ಅಗಿಯಲು ನೆರವಾಗುವಂತೆ ಕವಚವನ್ನು ಹಾಕಲು ದಂತವೈದ್ಯರು ಸೂಚಿಸಬಹುದು."
+        },
+        {
+          "title": "ಹಲ್ಲು ತೆಗೆಯುವ ಚಿಕಿತ್ಸೆ",
+          "description": "ಹಲ್ಲನ್ನು ಸರಿಪಡಿಸಿ ಉಳಿಸಿಕೊಳ್ಳುವ ಸಾಧ್ಯತೆ ಕಡಿಮೆಯಿದ್ದರೆ, ಅದನ್ನು ತೆಗೆಯಲು ದಂತವೈದ್ಯರು ಸೂಚಿಸಬಹುದು. ಇತರ ಆಯ್ಕೆಗಳು, ಚಿಕಿತ್ಸೆಯ ವಿಧಾನ ಮತ್ತು ಆ ಭಾಗವನ್ನು ನಂತರ ಹೇಗೆ ಆರೈಕೆ ಮಾಡಬೇಕು ಎಂಬುದನ್ನು ದಂತವೈದ್ಯರು ವಿವರಿಸಬಹುದು."
+        }
+      ]
+    },
+    "faq": {
+      "title": "ಪದೇ ಪದೇ ಕೇಳುವ ಪ್ರಶ್ನೆಗಳು",
+      "description": "ದಂತವೈದ್ಯರ ಭೇಟಿಗೆ ಸಮಯ ಕೇಳುವ ಮತ್ತು ಸಿದ್ಧತೆ ಮಾಡಿಕೊಳ್ಳುವ ಬಗ್ಗೆ ಇಲ್ಲಿ ತಿಳಿಯಿರಿ.",
+      "items": [
+        {
+          "title": "ಮೊದಲ ಭೇಟಿಗೆ ಏನನ್ನು ತರಬೇಕು?",
+          "description": "ನೀವು ತೆಗೆದುಕೊಳ್ಳುತ್ತಿರುವ ಔಷಧಿಗಳ ಪಟ್ಟಿ ಮತ್ತು ನಿಮಗೆ ಯಾವುದಾದರೂ ಅಲರ್ಜಿ ಇದ್ದರೆ ಅದರ ವಿವರಗಳನ್ನು ತನ್ನಿ. ಹಿಂದಿನ ದಂತ ಚಿಕಿತ್ಸೆಯ ದಾಖಲೆಗಳು ಅಥವಾ ಎಕ್ಸ್‌ರೇ ಚಿತ್ರಗಳು ಇದ್ದರೆ ಅವನ್ನೂ ತನ್ನಿ."
+        },
+        {
+          "title": "ಭೇಟಿಯ ಸಮಯ ಖಚಿತವಾಗಿದೆಯೇ ಎಂದು ಹೇಗೆ ತಿಳಿಯುವುದು?",
+          "description": "ನಮೂನೆಯನ್ನು ಸಲ್ಲಿಸಿದಾಗ ಭೇಟಿಗಾಗಿ ವಿನಂತಿ ಕಳುಹಿಸಲಾಗುತ್ತದೆ. ಸಮಯದ ಲಭ್ಯತೆಯ ಬಗ್ಗೆ ಚಿಕಿತ್ಸಾಲಯವು ನಿಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ, ಭೇಟಿಯ ಸಮಯವನ್ನು ಖಚಿತಪಡಿಸುತ್ತದೆ."
+        },
+        {
+          "title": "ಭೇಟಿಯ ಸಮಯವನ್ನು ಬದಲಾಯಿಸಬೇಕಾದರೆ ಏನು ಮಾಡಬೇಕು?",
+          "description": "ಬೇರೆ ಸಮಯ ಬೇಕು ಎಂದು ತಿಳಿದ ಕೂಡಲೇ ಚಿಕಿತ್ಸಾಲಯಕ್ಕೆ ಕರೆ ಮಾಡಿ. ಭೇಟಿಗಾಗಿ ವಿನಂತಿಸಿದಾಗ ನೀಡಿದ ಹೆಸರು ಮತ್ತು ದೂರವಾಣಿ ಸಂಖ್ಯೆಯನ್ನು ಸಿದ್ಧವಾಗಿಟ್ಟುಕೊಳ್ಳಿ."
+        },
+        {
+          "title": "ಮೊದಲ ಭೇಟಿಯಲ್ಲೇ ಎಕ್ಸ್‌ರೇ ಬೇಕಾಗುತ್ತದೆಯೇ?",
+          "description": "ನಿಮ್ಮ ತೊಂದರೆಗಳ ಬಗ್ಗೆ ಕೇಳಿ, ಬಾಯಿಯನ್ನು ಪರೀಕ್ಷಿಸಿದ ಬಳಿಕ ಎಕ್ಸ್‌ರೇ ಬೇಕೇ ಎಂದು ದಂತವೈದ್ಯರು ನಿರ್ಧರಿಸುತ್ತಾರೆ. ಇತ್ತೀಚೆಗೆ ಹಲ್ಲಿನ ಎಕ್ಸ್‌ರೇ ತೆಗೆಸಿದ್ದರೆ ಅದನ್ನು ತಿಳಿಸಿ."
+        },
+        {
+          "title": "ಚಿಕಿತ್ಸೆಗೆ ಮುನ್ನ ವೆಚ್ಚದ ಬಗ್ಗೆ ಕೇಳಬಹುದೇ?",
+          "description": "ಹೌದು. ಭೇಟಿ ನಿಗದಿಪಡಿಸುವಾಗ ಸಮಾಲೋಚನೆಯ ಶುಲ್ಕವನ್ನು ಚಿಕಿತ್ಸಾಲಯದಲ್ಲಿ ವಿಚಾರಿಸಿ. ತಪಾಸಣೆಯ ಬಳಿಕ, ಸೂಚಿಸಿದ ಚಿಕಿತ್ಸೆಯ ಬಗ್ಗೆ ಚರ್ಚಿಸಿ, ನಿರ್ಧಾರ ತೆಗೆದುಕೊಳ್ಳುವ ಮೊದಲು ಅಂದಾಜು ವೆಚ್ಚವನ್ನು ಕೇಳಬಹುದು."
+        }
+      ]
+    },
+    "contact": {
+      "title": "ಚಿಕಿತ್ಸಾಲಯವನ್ನು ಸಂಪರ್ಕಿಸಿ",
+      "description": "ದಾರಿ ತಿಳಿಯಲು ಅಥವಾ ನಿಮ್ಮ ಭೇಟಿಯ ಬಗ್ಗೆ ವಿಚಾರಿಸಲು ಕ್ಲಿನಿಕ್‌ಗೆ ಕರೆ ಮಾಡಿ."
+    },
+    "appointment": {
+      "title": "ಭೇಟಿಗಾಗಿ ವಿನಂತಿಸಿ",
+      "description": "ನಿಮ್ಮ ಸಂಪರ್ಕ ವಿವರ ಮತ್ತು ನಿಮಗೆ ಅನುಕೂಲವಾದ ಭೇಟಿಯ ಸಮಯವನ್ನು ತಿಳಿಸಿ. ಸಮಯ ಲಭ್ಯವಿದೆಯೇ ಎಂದು ಖಚಿತಪಡಿಸಲು ಚಿಕಿತ್ಸಾಲಯವು ನಿಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸುತ್ತದೆ."
+    }
+  }
+}
