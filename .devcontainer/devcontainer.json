@@ -1,0 +1,14 @@
+{
+  "name": "Sumukha clinic demo",
+  "image": "node:24-bookworm",
+  "postCreateCommand": "npm ci --no-audit",
+  "postStartCommand": "nohup npm run demo >/tmp/sumukha-demo.log 2>&1 </dev/null &",
+  "forwardPorts": [3001],
+  "portsAttributes": {
+    "3001": {
+      "label": "Clinic demo",
+      "onAutoForward": "openBrowser",
+      "protocol": "http"
+    }
+  }
+}
