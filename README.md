@@ -37,3 +37,9 @@ docker build -t sumukha-clinic .
 For hosting, use a single application instance behind HTTPS with a persistent encrypted volume and independent encrypted backups. Deployment, disaster recovery and clinic verification are covered in the project documentation. Optional aggregate activity collection is enabled only when `ANALYTICS_ENABLED=true`.
 
 For a separate development database with fictional data, run `node scripts/seed-development.mjs` and set `DB_PATH=data/fictional-development.sqlite`. The seed command refuses existing paths.
+
+## Review the visual redesign
+
+`npm start` shows the clinic's actual published content and available times. To review a populated catalogue and step through a booking using fictional availability, run `npm run demo` and open port 3001 on the same computer. Demo mode binds to loopback, starts with a fresh in-memory database, labels its public pages, and is disabled in production. Enter fictional contact details for test requests.
+
+Desktop and mobile comparisons, including unconfigured and populated states, are in [design-review](design-review/README.md). Run `npm run lint`, `npm run typecheck`, `node --test tests-unit/*.test.mjs`, and `npm test` to verify changes.

@@ -4,7 +4,10 @@
   "description": "Bilingual Sumukha Dental Clinic website",
   "scripts": {
     "test": "playwright test",
-    "start": "node server.mjs"
+    "start": "node server.mjs",
+    "typecheck": "tsc -p tsconfig.json",
+    "lint": "eslint .",
+    "demo": "PORT=3001 node server.mjs --demo"
   },
   "repository": {
     "type": "git",
@@ -23,7 +26,10 @@
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.14.0",
-    "@playwright/test": "^1.65.1"
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^24.19.2",
+    "eslint": "^10.15.0",
+    "typescript": "^7.0.2"
   },
   "dependencies": {
     "sharp": "0.35.5"

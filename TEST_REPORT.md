@@ -44,3 +44,22 @@ The environment blocked Firefox and WebKit downloads with HTTP 403 from both Pla
 | Deployment and rollback instructions | PASS | Deployment, encrypted backup and recovery runbooks in repository. Live cutover pending. |
 
 The final run included a real browser staff login and logout. A prior run found an empty Origin on a same-site browser form POST under the previous referrer policy. Switching to strict-origin restored the same-origin check while keeping URL paths out of referrers. Six worker tests exercised optional WhatsApp delivery with a mock provider. No external messages were sent.
+
+## Visual redesign verification
+
+The redesigned build passed 15 Chromium Playwright tests and 14 Node tests. The tests exercised the multi-step English/Kannada booking flow, server validation, competing requests, localized search, service preselection, gallery viewing, mobile navigation, staff permissions and a database failure. ESLint passed across JavaScript sources. TypeScript's strict JavaScript check passed for the catalogue search and gallery viewer in `public/patient-tools.js`. The server remains JavaScript.
+
+The Docker image built with production dependencies. A fresh container returned HTTP 200 for health, home, Kannada treatments, the English booking form, staff login, page CSS and the homepage illustration. The dependency audit reported zero known vulnerabilities. These checks used local fixtures and do not establish an independent security assessment of a live deployment.
+
+See the [visual audit](design-review/README.md) and the [before-and-after screenshot index](design-review/SCREENSHOTS.md). The source website returned HTTP 403 from this environment, so comparison used the captured local baseline and the clinic information already available in the repository. Actual clinic imagery, qualifications, offered treatments and appointment hours still need clinic verification.
+
+## Visual redesign regression run
+
+| Command | Result |
+| --- | --- |
+| `npm run typecheck` | Passed |
+| `npm run lint` | Passed |
+| `PLAYWRIGHT_PORT=3220 npm test` | 15 passed |
+| `node --test tests-unit/*.test.mjs` | 14 passed |
+
+The Chromium run covered the complete booking wizard, switching languages mid-booking, catalogue search, selecting a treatment from its detail page, and receptionist confirmation through the responsive staff table. It checked layout widths of 320, 390, 768, 1024, 1137 and 1440 pixels and ran axe on the Kannada booking entry page. The Node tests also verified the localized database error screen and that demo data stays out of the configured clinic database. The [visual review](design-review/README.md) describes the baseline and changes. The [screenshot index](design-review/SCREENSHOTS.md) includes both locales and the staff interface.

@@ -10,3 +10,7 @@
 - Control the domain, hosting, backup keys and billing using clinic-owned accounts with documented recovery contacts.
 - Confirm HTTPS, alerting, backup retention, and isolated restoration before accepting patient data.
 - Review the [SEO migration plan](SEO_MIGRATION.md) and verify both locales and all redirects before DNS cutover.
+
+## Redesign release review
+
+In the owner gallery, upload rights-cleared clinic images and provide descriptive text in both languages. In the clinic profile, select the homepage image and the doctor's portrait, then verify the biography, registration and facilities before publishing. The default homepage uses an illustrative dental model. The clinical team must approve each treatment translation, including its risks and aftercare, and configure working periods before opening bookings to patients. Sample services and availability on port 3001 are confined to the local demo.

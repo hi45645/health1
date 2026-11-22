@@ -1,0 +1,20 @@
+[data-treatment-card][hidden], [data-search-empty][hidden] { display: none; }
+.photo-dialog { width: min(90vw, 62rem); max-height: 92dvh; border: 0; padding: 1rem; background: var(--navy); color: white; border-radius: 1rem; }
+.photo-dialog::backdrop { background: rgb(3 22 29 / 85%); }
+.photo-dialog img { max-height: 68dvh; width: 100%; object-fit: contain; }
+.photo-dialog p { color: white; margin: .7rem 0 0; }
+.photo-controls { display: flex; gap: .5rem; justify-content: flex-end; margin-bottom: .75rem; }
+.photo-controls button { background: white; color: var(--navy); padding: .5rem .8rem; border: 0; border-radius: .4rem; min-height: 44px; cursor: pointer; }
+.info-banner { background: var(--soft); padding-block: clamp(2.5rem,5vw,5rem); }
+.info-banner h1 { font-family: var(--heading-font); color: var(--navy); }
+.info-banner p:first-child { color: var(--teal); font-weight: 700; margin: 0 0 .75rem; }
+.info-banner p:last-child { max-width: 64ch; }
+.info-columns { display: grid; grid-template-columns: minmax(0,1.8fr) minmax(15rem,1fr); gap: clamp(2rem,7vw,6rem); padding-block: clamp(2rem,5vw,4.5rem); }
+.info-content { display: grid; align-content: start; gap: 1rem; }
+.info-content section + section { border-top: 1px solid var(--border); padding-top: 1.25rem; }
+.info-content h2,.info-columns aside h2 { font-size: clamp(1.4rem,3vw,2.1rem); }
+.info-columns aside { background: var(--soft); padding: 1.6rem; align-self: start; border-radius: 1rem; }
+.info-columns aside a { display: table; margin-top: 1rem; }
+.info-phone { font-size: 1.2rem; font-weight: 650; }
+@media (max-width: 46rem) { .info-columns { grid-template-columns: 1fr; } }
+.demo-ribbon { background:#fff4cf; color:#47380d; padding:.4rem 1rem; text-align:center; font-size:.88rem; font-weight:600; }

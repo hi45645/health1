@@ -46,7 +46,7 @@ test('clinic details require verification in both languages and reject stale edi
   }
 });
 
-test('owner upload serves a re-encoded bilingual gallery photo and supports removal', async ({ request }) => {
+test('owner upload serves a re-encoded bilingual gallery photo and supports removal', async ({ request, page: browserPage }) => {
   const action = '/admin/gallery';
   expect((await doctor.get(action)).status()).toBe(403);
   const input = await sharp({ create: { width: 1900, height: 100, channels: 3, background: 'white' } })
@@ -67,6 +67,15 @@ test('owner upload serves a re-encoded bilingual gallery photo and supports remo
   expect(match).not.toBeNull();
   const [, path, id] = match;
   try {
+    await browserPage.goto('/kn/gallery');
+    const thumbnail = browserPage.locator('a[data-gallery-view]').filter({ has: browserPage.getByAltText(upload.alt_kn) });
+    await thumbnail.click();
+    const viewer = browserPage.getByRole('dialog');
+    await expect(viewer).toBeVisible();
+    await expect(viewer.getByRole('img')).toHaveAttribute('alt', upload.alt_kn);
+    await browserPage.keyboard.press('Escape');
+    await expect(viewer).not.toBeVisible();
+    await expect(thumbnail).toBeFocused();
     const bytes = await request.get(path);
     expect(bytes.status()).toBe(200);
     expect(bytes.headers()['content-type']).toBe('image/webp');

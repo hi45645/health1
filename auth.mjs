@@ -89,6 +89,7 @@ export async function authenticate({db,req,res,url,origin,readForm,respond,redir
   }
   const user = cookie && db.prepare('SELECT u.username,u.role FROM staff_sessions s JOIN staff u USING(username) WHERE s.token_hash=? AND s.expires>? AND s.touched>? AND u.enabled=1').get(hash(cookie),now,now-1800);
   if (!user) {respond(res,401,screen('Staff sign in',login));return null;}
+  req.staff=user;
   db.prepare('UPDATE staff_sessions SET touched=? WHERE token_hash=?').run(now,hash(cookie));
   if (url.pathname === '/admin/logout') {
     if (req.method !== 'POST') return fail(405,'Submit the sign-out form.');
@@ -134,5 +135,5 @@ export async function authenticate({db,req,res,url,origin,readForm,respond,redir
     const items=rows.filter(r=>r.username!==user.username).map(r=>`<form method="post" class="stack"><strong>${h(r.username)}</strong><input type="hidden" name="username" value="${h(r.username)}"><label>Role<select name="role">${choices.replace('<option>'+r.role,'<option selected>'+r.role)}</select></label><label><input type="checkbox" name="enabled" value="yes" ${r.enabled?'checked':''}>Enabled</label><button name="action" value="update">Update account</button></form>`).join('');
     respond(res,200,screen('Staff accounts','<a href="/admin">Dashboard</a><form method="post" class="stack"><label>Username<input name="username" required></label><label>Role<select name="role">'+choices+'</select></label><label>Password<input type="password" autocomplete="new-password" name="password" required></label><label>Authenticator secret<input type="password" name="secret" required></label><button name="action" value="create">Create account</button><button name="action" value="reset">Reset named account credentials and revoke sessions</button></form>'+items));return null;
   }
-  req.staff=user;return user;
+  return user;
 }

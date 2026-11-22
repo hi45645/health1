@@ -1,4 +1,5 @@
 import { escape as h } from './views.mjs';
+import { getGalleryPhoto } from './gallery.mjs';
 
 const locales = ['en', 'kn'];
 const localizedFields = [
@@ -6,7 +7,10 @@ const localizedFields = [
   ['address', 'Clinic address', 220, true],
   ['location', 'City and state', 100, true],
   ['doctor', 'Doctor’s public name', 100],
-  ['credentials', 'Public qualifications and registration', 300],
+  ['credentials', 'Public qualifications', 300],
+  ['registration', 'Verified registration details', 220],
+  ['biography', 'Doctor’s public biography', 1400],
+  ['facilities', 'Verified clinic facilities', 1400],
   ['hours', 'Published opening hours', 250],
   ['fee', 'Published consultation fee', 100],
   ['seoDescription', 'Site description for search engines', 170]
@@ -53,6 +57,8 @@ export function getClinic(db, locale) {
     : profile.phone;
   return {
     ...localized,
+    heroPhoto: getGalleryPhoto(db, profile.heroPhoto, locale),
+    doctorPhoto: getGalleryPhoto(db, profile.doctorPhoto, locale),
     phone: profile.phone,
     phoneDisplay,
     phoneHref: 'tel:' + profile.phone,
@@ -86,8 +92,9 @@ export function saveClinicProfile(db, form) {
       const field = lang + '.' + key;
       const value = inputValue(form, field);
       profile[lang][key] = value;
-      if ((required && !value) || value.length > max || /[\p{Cc}]/u.test(value)) {
-        errors[field] = `${label} ${required ? 'is required and' : ''} must be no longer than ${max} characters. Use a single line.`;
+      const multiline = key === 'biography' || key === 'facilities';
+      if ((required && !value) || value.length > max || /\p{Cc}/u.test(multiline ? value.replace(/[\r\n]/g, '') : value)) {
+        errors[field] = `${label} ${required ? 'is required and' : ''} must be no longer than ${max} characters${multiline ? '.' : '. Use a single line.'}`;
       }
     }
     if (Boolean(profile.en[key]) !== Boolean(profile.kn[key])) {
@@ -109,6 +116,11 @@ export function saveClinicProfile(db, form) {
     if (link) profile.maps = link;
     else errors.maps = 'Use the full secure Google Maps URL, with a /maps path.';
   }
+  for (const field of ['heroPhoto', 'doctorPhoto']) {
+    profile[field] = inputValue(form, field);
+    if (profile[field] && !getGalleryPhoto(db, profile[field], 'en')) errors[field] = 'Choose a currently published clinic photo.';
+  }
+  if (profile.doctorPhoto && !profile.en.doctor) errors.doctorPhoto = 'Enter the doctor’s verified name in both languages before selecting a public portrait.';
   const revision = inputValue(form, 'revision');
   const validRevision = /^\d+$/.test(revision) && Number.isSafeInteger(Number(revision));
   profile.revision = validRevision ? Number(revision) : -1;
@@ -126,14 +138,19 @@ export function saveClinicProfile(db, form) {
   return { profile: { ...stored, revision: expected + 1 }, errors, status: 200 };
 }
 
-export function renderClinicEditor(profile, { errors = {}, action = '/admin/clinic', csrfInput = '' } = {}) {
+export function renderClinicEditor(profile, { errors = {}, action = '/admin/clinic', csrfInput = '', photos = [] } = {}) {
   const field = (name, label, value, max, required = false, lang = 'en', type = 'text') => {
     const error = errors[name];
-    return `<label>${h(label)}<input id="${h(name)}" name="${h(name)}" lang="${lang}" type="${type}" value="${h(value)}" maxlength="${max}"${required ? ' required' : ''}${error ? ' aria-invalid="true" aria-describedby="' + h(name) + '-error"' : ''}></label>
+    const attributes = `id="${h(name)}" name="${h(name)}" lang="${lang}" maxlength="${max}"${required ? ' required' : ''}${error ? ' aria-invalid="true" aria-describedby="' + h(name) + '-error"' : ''}`;
+    const control = type === 'textarea' ? `<textarea ${attributes} rows="5">${h(value)}</textarea>` : `<input ${attributes} type="${type}" value="${h(value)}">`;
+    return `<label>${h(label)}${control}</label>
       ${error ? `<p class="field-error" id="${h(name)}-error">${h(error)}</p>` : ''}`;
   };
+  const photoField = (key, label) => `<label>${label}<select name="${key}"${errors[key] ? ` aria-invalid="true" aria-describedby="${key}-error"` : ''}>
+    <option value="">No published photo selected</option>${photos.map(photo => `<option value="${h(photo.id)}"${profile[key] === photo.id ? ' selected' : ''}>${h(photo.label)}</option>`).join('')}</select></label>
+    ${errors[key] ? `<p class="field-error" id="${key}-error">${h(errors[key])}</p>` : ''}`;
   const languageFields = locales.map(lang => `<fieldset class="stack"><legend>${lang === 'en' ? 'English' : '<span lang="kn">ಕನ್ನಡ</span>'}</legend>${
-    localizedFields.map(([key, label, max, required]) => field(lang + '.' + key, label, profile[lang][key], max, required, lang)).join('')
+    localizedFields.map(([key, label, max, required]) => field(lang + '.' + key, label, profile[lang][key], max, required, lang, ['biography', 'facilities'].includes(key) ? 'textarea' : 'text')).join('')
   }</fieldset>`).join('');
   return `<form class="stack clinic-editor" method="post" action="${h(action)}">${csrfInput}
     <input type="hidden" name="revision" value="${h(profile.revision)}">
@@ -143,6 +160,11 @@ export function renderClinicEditor(profile, { errors = {}, action = '/admin/clin
     ${field('phone', 'Clinic phone number', profile.phone, 30, true, 'en', 'tel')}
     ${field('whatsapp', 'Verified clinic WhatsApp number', profile.whatsapp, 30, false, 'en', 'tel')}
     ${field('maps', 'Verified Google Maps URL', profile.maps, 1200, false, 'en', 'url')}
+    </fieldset>
+    <fieldset class="stack"><legend>Approved imagery</legend>
+    <p><a href="/admin/gallery">Upload real, owner-approved clinic and doctor photos</a> before selecting images. Use a genuine portrait of the named doctor in the doctor field.</p>
+    ${photoField('heroPhoto', 'Homepage clinic photograph')}
+    ${photoField('doctorPhoto', 'Doctor profile portrait')}
     </fieldset>
     <label><input name="verified" type="checkbox" value="yes" required${errors.verified ? ' aria-invalid="true" aria-describedby="verified-error"' : ''}> I verified these clinic details and both language versions. Publish them on the website.</label>
     ${errors.verified ? `<p class="field-error" id="verified-error">${h(errors.verified)}</p>` : ''}

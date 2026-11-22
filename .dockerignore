@@ -10,3 +10,5 @@ backups
 tests/
 tests-unit/
 playwright.config.mjs
+
+design-review/

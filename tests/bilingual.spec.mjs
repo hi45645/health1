@@ -47,25 +47,40 @@ test('English defaults, switching stays on the current page, and preference surv
   await reopened.close();
 });
 
-test('appointment fields, localized errors, and bilingual receipt', async ({ page }) => {
+test('booking wizard preserves details and progress across languages and returns a bilingual receipt', async ({ page, request, baseURL, browser }) => {
+  const invalid = await request.post('/en/book-appointment', { headers: { Origin: baseURL }, form: {}, maxRedirects: 0 });
+  expect(invalid.status()).toBe(422);
+  expect(await invalid.text()).toContain(ui.en.fieldError);
+
   await page.goto('/en/book-appointment');
-  await page.getByRole('button', { name: ui.en.submit }).click();
-  await expect(page.getByRole('alert')).toHaveText(ui.en.fieldError);
-  const values = { name: 'Test Patient', phone: '1234', email: 'patient@example.invalid', date: clinicDate(3) };
+  const next = page.locator('[data-next]');
+  await page.locator('[data-service="general"]').click();
+  await next.click();
+
+  const values = { name: 'Test Patient', phone: '1234', email: 'patient@example.invalid' };
+  const date = clinicDate(3);
+  const dateButton = page.locator('[data-date="' + date + '"]');
+  if (clinicDate(0).slice(0, 7) !== date.slice(0, 7)) await page.locator('[data-month="1"]').click();
+  await dateButton.click();
+  await next.click();
+  await page.locator('[data-slot="10:30"]').click();
+  await next.click();
   for (const [name, value] of Object.entries(values)) await page.locator('#' + name).fill(value);
-  await expect(page.locator('#time option[value="10:30"]')).toHaveCount(1);
-  await page.locator('#time').selectOption('10:30');
   await page.locator('[name=consent]').check();
   await page.locator('[name=whatsapp]').check();
   await segment(page, 'kn').click();
   await expect(page).toHaveURL(/\/kn\/book-appointment$/);
   for (const [name, value] of Object.entries(values)) await expect(page.locator('#' + name)).toHaveValue(value);
+  await expect(page.locator('#name')).toBeVisible();
+  await expect(page.locator('#date')).toHaveValue(date);
   await expect(page.locator('#time')).toHaveValue('10:30');
   await expect(page.locator('[name=consent]')).toBeChecked();
   await expect(page.locator('[name=whatsapp]')).toBeChecked();
-  await page.getByRole('button', { name: ui.kn.submit }).click();
+  await next.click();
   await expect(page.locator('#phone-error')).toHaveText(ui.kn.invalidPhone);
   await page.locator('#phone').fill('9900000000');
+  await next.click();
+  await expect(page.locator('[data-review=name]')).toHaveText(values.name);
   await page.getByRole('button', { name: ui.kn.submit }).click();
   await expect(page.getByRole('heading', { level: 1 })).toHaveText(ui.kn.confirmation);
   const receipt = new URL(page.url()).searchParams.get('received');
@@ -81,10 +96,28 @@ test('appointment fields, localized errors, and bilingual receipt', async ({ pag
   expect((await sessions.editor.get('/admin/appointments')).status()).toBe(403);
   const inbox = await sessions.receptionist.get('/admin/appointments');
   expect(await inbox.text()).toContain(receipt);
-  const confirmation = await sessions.receptionist.post('/admin/appointments', {
-    form: { reference: receipt, action: 'confirm' }, maxRedirects: 0
+  const staffContext = await browser.newContext({
+    baseURL, storageState: await sessions.receptionist.storageState(), viewport: { width: 390, height: 844 }
   });
-  expect(confirmation.status()).toBe(303);
+  try {
+    const staffPage = await staffContext.newPage();
+    await staffPage.goto('/admin/appointments');
+    const table = staffPage.getByRole('table', { name: 'Filtered appointments' });
+    await expect(table.getByRole('columnheader', { name: 'Manage' })).toBeAttached();
+    const appointment = table.getByRole('row').filter({ hasText: values.name });
+    await appointment.getByText('Booking details', { exact: true }).click();
+    const confirm = appointment.getByRole('button', { name: 'Mark as confirmed' });
+    const staffScroll = staffPage.getByRole('region', { name: 'Filtered appointments' });
+    const widths = await staffScroll.evaluate(region => [region.clientWidth, region.scrollWidth]);
+    expect(widths[1]).toBe(widths[0]);
+    await expect(confirm).toBeInViewport();
+    const posted = staffPage.waitForResponse(response => response.request().method() === 'POST' && response.url().endsWith('/admin/appointments'));
+    await confirm.click();
+    expect((await posted).status()).toBe(303);
+    await expect(appointment.getByText('confirmed', { exact: true })).toBeVisible();
+  } finally {
+    await staffContext.close();
+  }
   await page.reload();
   await expect(page.getByRole('status')).toHaveText(extras.kn.confirmed);
   await segment(page, 'en').click();
@@ -118,7 +151,7 @@ test('every general route has reciprocal locale and canonical metadata', async (
 test('mobile layout, keyboard focus, accessible names, and locally loaded Kannada glyphs', async ({ page }) => {
   const errors = [];
   page.on('pageerror', error => errors.push(error.message));
-  for (const width of [320, 390, 768, 1440]) {
+  for (const width of [320, 390, 768, 1024, 1137, 1440]) {
     await page.setViewportSize({ width, height: 900 });
     for (const locale of ['en', 'kn']) {
       await page.goto('/' + locale + '/');
@@ -128,6 +161,15 @@ test('mobile layout, keyboard focus, accessible names, and locally loaded Kannad
     }
   }
   await page.setViewportSize({ width: 390, height: 900 });
+  await page.goto('/en/');
+  const mobileMenu = page.locator('.mobile-nav');
+  await expect(mobileMenu.locator('summary')).toBeVisible();
+  await expect(mobileMenu).not.toHaveAttribute('open', '');
+  await expect(segment(page, 'kn')).toBeVisible();
+  await mobileMenu.locator('summary').click();
+  await expect(mobileMenu).toHaveAttribute('open', '');
+  await mobileMenu.getByRole('link', { name: ui.en.services }).click();
+  await expect(page).toHaveURL(/\/en\/services$/);
   await page.goto('/en/book-appointment');
   const kannada = page.getByRole('navigation', { name: ui.en.language }).getByRole('link', { name: 'ಕನ್ನಡ' });
   for (let step = 0; step < 10 && !(await kannada.evaluate(el => el === document.activeElement)); step++) {
@@ -188,6 +230,23 @@ test('editors cannot publish and both medical locale drafts require approval', a
     }
     for (const locale of ['en', 'kn']) await checkPage(page, baseURL, locale, path);
   }
+  for (const locale of ['en', 'kn']) {
+    await page.goto('/' + locale + '/services');
+    const search = page.locator('[data-treatment-search]');
+    const cards = page.locator('[data-treatment-card]:visible');
+    await expect(cards).toHaveCount(treatmentPaths.length);
+    await search.fill('no-match-9xy');
+    await expect(cards).toHaveCount(0);
+    await expect(page.locator('[data-search-empty]')).toBeVisible();
+    await search.clear();
+    await expect(cards).toHaveCount(treatmentPaths.length);
+  }
+  await page.goto('/en/services/consultation');
+  await page.locator('main a[href="/en/book-appointment?service=consultation"]').first().click();
+  await expect(page.locator('[data-service=consultation]')).toHaveAttribute('aria-pressed', 'true');
+  await segment(page, 'kn').click();
+  await expect(page).toHaveURL(/\/kn\/book-appointment\?service=consultation$/);
+  await expect(page.locator('[data-service=consultation]')).toHaveAttribute('aria-pressed', 'true');
 });
 
 test('only one request claims a slot and retrying the winning request returns the same receipt', async ({ request, baseURL }) => {
@@ -274,7 +333,9 @@ test('only the booking holder can cancel from the patient status page', async ({
   }
 });
 
-test('staff sign in and sign out through the rendered forms', async ({ page }) => {
+test('staff sign in, use role-aware mobile navigation, and sign out through rendered forms', async ({ page, request }) => {
+  expect((await request.get('/assets/admin.css')).status()).toBe(200);
+  await page.setViewportSize({ width: 390, height: 844 });
   const { totp } = await import('../auth.mjs');
   const credentials = { username: 'form-test-editor', role: 'editor', password: 'test-only-form-password', secret: 'JBSWY3DPEHPK3PXPJBSWY3DPEHPK3PXT' };
   expect((await sessions.owner.post('/admin/staff', { form: { action: 'create', ...credentials }, maxRedirects: 0 })).status()).toBe(303);
@@ -284,6 +345,11 @@ test('staff sign in and sign out through the rendered forms', async ({ page }) =
   await page.getByLabel('Authenticator code').fill(totp(credentials.secret));
   await page.getByRole('button', { name: 'Sign in' }).click();
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Clinic content');
+  const menu = page.locator('.staff-menu');
+  await menu.locator('summary').click();
+  await expect(menu.getByRole('link', { name: 'Appointments' })).toHaveCount(0);
+  await menu.getByRole('link', { name: 'Treatments' }).click();
+  await expect(page).toHaveURL(/\/admin\/services$/);
   await page.getByRole('button', { name: 'Sign out' }).click();
   await page.goto('/admin');
   await expect(page.getByRole('heading', { level: 1 })).not.toHaveText('Clinic content');

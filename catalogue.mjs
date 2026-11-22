@@ -1,4 +1,5 @@
 import { escape as h } from './views.mjs';
+import treatmentDetails from './service-detail-drafts.json' with { type: 'json' };
 
 const supportedLocales = ['en', 'kn'];
 const defaultSlugs = ['consultation', 'cleaning', 'fillings', 'root-canal', 'crowns', 'extraction'];
@@ -38,6 +39,7 @@ const faqFields = [
   ['secondFaqQuestion', 'secondFaqAnswer'],
   ['thirdFaqQuestion', 'thirdFaqAnswer']
 ];
+const educationFields = ['symptoms', 'procedure', 'benefits', 'risks', 'aftercare', ...faqFields.flat()];
 
 const detailsLabels = {
   en: {
@@ -63,6 +65,17 @@ function readTranslation(data, locale) {
   if (faqFields.some(([question, answer]) => Boolean(draft[question]) !== Boolean(draft[answer]))) return null;
   if (locale === 'kn' && ![draft.title, draft.description].every(value => /\p{Script=Kannada}/u.test(value))) return null;
   return draft;
+}
+
+function seededTranslation(slug, locale, entry) {
+  const original = { ...blankTranslation(), ...entry };
+  const details = Object.hasOwn(treatmentDetails, slug) && treatmentDetails[slug][locale];
+  if (!details || !entry?.description) return { original, draft: original };
+  const draft = readTranslation({ ...original, ...details }, locale);
+  if (!draft || educationFields.some(key => !draft[key] || (locale === 'kn' && !/\p{Script=Kannada}/u.test(draft[key])))) {
+    throw new Error(`Invalid educational draft for ${slug} (${locale})`);
+  }
+  return { original, draft };
 }
 
 function makePublic(row, photo) {
@@ -104,6 +117,11 @@ export function createCatalogue(db, seed, slugs = defaultSlugs) {
 
   const create = db.prepare('INSERT OR IGNORE INTO clinic_services (slug, display_order) VALUES (?, ?)');
   const createTranslation = db.prepare('INSERT INTO clinic_service_translations (service_id, locale, draft) VALUES (?, ?, ?)');
+  const enrichDefault = db.prepare(`
+    UPDATE clinic_service_translations SET draft = ?, revision = revision + 1
+    WHERE service_id = (SELECT id FROM clinic_services WHERE slug = ? AND archived = 0)
+      AND locale = ? AND revision = 1 AND published IS NULL AND approved_at IS NULL AND draft = ?
+  `);
   transaction(() => {
     const pending = slugs.map((slug, index) => [slug, seed?.en?.treatments?.items?.[index], seed?.kn?.treatments?.items?.[index]]);
     for (const [slug, titleEn, titleKn] of unverifiedServices) {
@@ -111,9 +129,13 @@ export function createCatalogue(db, seed, slugs = defaultSlugs) {
     }
     pending.forEach(([slug, en, kn], index) => {
       const { changes, lastInsertRowid } = create.run(slug, (index + 1) * 10);
-      if (!changes) return;
       for (const [locale, entry] of [['en', en], ['kn', kn]]) {
-        createTranslation.run(lastInsertRowid, locale, JSON.stringify({ ...blankTranslation(), ...entry }));
+        const { original, draft } = seededTranslation(slug, locale, entry);
+        if (changes) {
+          createTranslation.run(lastInsertRowid, locale, JSON.stringify(draft));
+        } else if (draft !== original) {
+          enrichDefault.run(JSON.stringify(draft), slug, locale, JSON.stringify(original));
+        }
       }
     });
   });

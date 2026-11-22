@@ -1,0 +1,76 @@
+.admin,.admin-login{--staff-ink:#173831;--staff-green:#145d4e;--staff-line:#cfddd5;background:#f5f7f3;color:var(--staff-ink);font-family:system-ui,sans-serif}
+.admin{display:grid;grid-template-columns:14rem minmax(0,1fr);min-height:100vh}
+.staff-side{padding:2rem 1rem;background:#143d35;color:#fff}
+.staff-brand{display:grid;line-height:1.2;color:#e4f0e8;text-decoration:none;font-size:.83rem;padding:0 1rem 2.3rem;letter-spacing:.05em}
+.staff-brand span{font:600 1.8rem Georgia,serif;letter-spacing:normal;color:white}
+.staff-side nav,.staff-menu nav{display:grid;gap:.22rem}
+.staff-side nav a,.staff-menu nav a{padding:.65rem 1rem;border-radius:.42rem;color:#e2ece6;text-decoration:none;font-size:.94rem;font-weight:550}
+.staff-side nav a[aria-current],.staff-side nav a:hover,.staff-menu nav a:hover{background:#286052;color:white}
+.staff-workarea{min-width:0}
+.staff-bar,.staff-panel header{display:flex;align-items:center;gap:1rem}
+.staff-bar{padding:.8rem clamp(1rem,3vw,3rem);border-bottom:1px solid var(--staff-line);background:white}
+.staff-bar>span{margin-right:auto;font-weight:650}.staff-bar div{display:grid;font-size:.9rem;line-height:1.3}.staff-bar small{color:#50655c;text-transform:capitalize}
+.admin button,.admin-login button{cursor:pointer}.staff-bar form{margin:0}.staff-bar button{border:1px solid var(--staff-line);background:white;color:var(--staff-green);padding:.5rem .85rem;border-radius:.4rem}
+.staff-menu{display:none}.admin main.shell{width:min(100% - 2rem,72rem);padding:clamp(1.5rem,4vw,3.5rem) 0;margin:auto}
+.admin h1,.admin-login h1{font:600 clamp(1.9rem,3.2vw,3rem)/1.15 Georgia,serif;letter-spacing:-.025em}
+.admin h2{font:650 1.18rem/1.4 system-ui,sans-serif}.admin .staff-date{margin:.35rem 0;color:#586c62}
+.stats,.staff-panels{display:grid;gap:1rem;margin:1.5rem 0}.stats{grid-template-columns:repeat(auto-fit,minmax(min(100%,10rem),1fr))}
+.stat,.staff-panel,.admin main details{border:1px solid var(--staff-line);border-radius:.75rem;background:white}
+.stat{display:grid;gap:1rem;padding:1.1rem;color:var(--staff-ink);text-decoration:none}.stat span{font-size:.87rem;font-weight:600}.stat b{font-size:2.2rem;line-height:1}
+.staff-panels{grid-template-columns:1.5fr 1fr}.staff-panel{padding:1.25rem;min-width:0}.staff-panel header{justify-content:space-between}.staff-empty{padding:2rem .25rem}
+.admin table{width:100%;border-collapse:collapse;text-align:left;margin:1rem 0}.admin th,.admin td{padding:.55rem .4rem;border-bottom:1px solid var(--staff-line);vertical-align:top}
+.admin th{font-size:.83rem}.admin caption{text-align:left;font-weight:650}
+.publish-list{list-style:none;padding:0}.publish-list li{padding:.7rem 0;border-bottom:1px solid var(--staff-line);display:flex;flex-wrap:wrap;gap:.4rem;justify-content:space-between}.publish-list span,.state{font-size:.83rem;color:#375c4e}
+.admin .staff-scroll{overflow-x:auto}.admin .patient-table details{margin:.3rem 0;padding:.45rem}.admin details>summary{font-weight:650}.admin .patient-table td{min-width:5rem}.admin .patient-table td:last-child{min-width:12rem}
+.admin form.stack{max-width:48rem}.admin .language{margin-block:1rem}.admin main fieldset{border:1px solid var(--staff-line);border-radius:.5rem;padding:1rem}.admin fieldset label+label{margin-top:.65rem}
+.admin main button{background:var(--staff-green);border:1px solid var(--staff-green);border-radius:.4rem;color:white;padding:.5rem .8rem;margin:.2rem .15rem .2rem 0}
+.admin-login{min-height:100vh}.login-brand{padding:1.5rem clamp(1rem,5vw,4rem);border-bottom:1px solid var(--staff-line);color:var(--staff-green)}.login-brand b{font:600 1.5rem Georgia,serif}
+.admin-login main.shell{width:min(28rem,100% - 2rem);margin:clamp(2rem,9vh,7rem) auto;background:white;border:1px solid var(--staff-line);border-radius:.9rem;padding:2rem}.admin-login form.stack{border:0;padding:0;margin:1.5rem 0 0}
+@media(max-width:58rem){.admin{grid-template-columns:minmax(0,1fr)}.staff-side{display:none}.staff-menu{display:block;position:relative}.staff-menu nav{position:absolute;background:#143d35;min-width:13rem;top:100%;padding:.5rem;z-index:10;border-radius:.5rem}.staff-bar>span{font-size:.82rem}.staff-bar{gap:.65rem}.staff-panels{grid-template-columns:1fr}}
+@media(max-width:28rem){.staff-bar>span{display:none}.staff-menu{margin-right:auto}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.admin .staff-panel{padding:.85rem}}
+.staff-shortcuts{display:flex;flex-wrap:wrap;gap:.45rem;margin:1rem 0}.staff-shortcuts a{border:1px solid var(--staff-line);background:white;border-radius:.4rem;padding:.4rem .8rem;text-decoration:none;font-weight:600}
+.admin form.booking-filters{width:100%;max-width:none;margin:1rem 0;padding:1rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,11rem),1fr));align-items:end}
+.admin .staff-scroll{background:white;border:1px solid var(--staff-line);border-radius:.7rem;padding:.35rem .75rem;margin:.75rem 0 1.5rem}.admin .staff-scroll:focus-visible{outline:3px solid var(--staff-green)}
+.admin main details:target{outline:2px solid var(--staff-green);outline-offset:2px}.admin .patient-table details p{overflow-wrap:anywhere}
+.setup-tasks{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,13rem),1fr));gap:1.25rem;padding:0;list-style:none}.setup-tasks a{font-weight:650}.setup-tasks p{margin:.35rem 0;font-size:.92rem}
+.staff-field-label { display: none; }
+
+@media (max-width: 45rem) {
+  .admin .staff-scroll { padding: .75rem; }
+  .admin .patient-table { display: block; margin: 0; }
+  .patient-table caption { display: block; margin-bottom: .65rem; }
+  .patient-table thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+  .patient-table tbody { display: grid; gap: .65rem; }
+  .patient-table tbody tr {
+    display: grid;
+    padding: .35rem .7rem;
+    background: #fff;
+    border: 1px solid var(--staff-line);
+    border-radius: .65rem;
+  }
+  .admin .patient-table td {
+    display: grid;
+    grid-template-columns: minmax(0, 5.5rem) minmax(0, 1fr);
+    align-items: baseline;
+    gap: .65rem;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+  .admin .patient-table td:last-child { min-width: 0; border-bottom: 0; }
+  .admin .patient-table td[colspan] { display: block; }
+  .staff-field-label { display: block; font-size: .84rem; font-weight: 650; }
+  .admin .patient-table details { margin: 0; }
+  .admin .patient-table details details { margin-top: .45rem; }
+  .admin .patient-table input { width: 100%; min-width: 0; }
+}
+
+@media (max-width: 24rem) {
+  .admin .patient-table td:last-child { grid-template-columns: minmax(0, 1fr); gap: .25rem; }
+}

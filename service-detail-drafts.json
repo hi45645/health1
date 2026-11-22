@@ -1,0 +1,170 @@
+{
+  "consultation": {
+    "en": {
+      "symptoms": "Arrange a dental assessment for a toothache, sensitivity, bleeding gums, a loose or broken tooth, or a sore in the mouth that is not healing. You can also arrange a check-up without symptoms. If you have rapidly spreading swelling or difficulty breathing or swallowing, seek emergency care.",
+      "procedure": "The dentist asks about your concerns, medical history, medicines and allergies. They examine your teeth, gums and other areas of your mouth. They may recommend an X-ray or another examination if it would change the advice or treatment plan.",
+      "benefits": "An assessment helps clarify what may be causing symptoms, which findings need treatment and which can be monitored. Some problems need further tests or a referral before a diagnosis can be made.",
+      "risks": "Examining a tender tooth or inflamed gum can cause brief discomfort. Dental X-rays involve a small amount of radiation and are recommended when they are expected to help. Tell your dentist if you are pregnant, may be pregnant or have concerns about imaging.",
+      "aftercare": "Ask which findings need follow-up and when to return. If the visit was an examination only, you can usually resume normal activities. Contact the clinic if symptoms worsen or new swelling develops while you wait for treatment.",
+      "faqQuestion": "What should I bring?",
+      "faqAnswer": "Bring a list of medicines and allergies, along with relevant previous dental records or X-rays if you have them.",
+      "secondFaqQuestion": "Will treatment start at the first visit?",
+      "secondFaqAnswer": "That depends on what the dentist finds, the visit length and what you decide together. You can ask for a written plan and a cost estimate before proceeding.",
+      "thirdFaqQuestion": "Can I tell the dentist I am anxious?",
+      "thirdFaqAnswer": "Yes. You can explain what worries you, ask the dentist to describe each step and agree on a signal to pause."
+    },
+    "kn": {
+      "symptoms": "ಹಲ್ಲುನೋವು, ಹಲ್ಲಿನ ಜುಮ್ಮೆನಿಸುವಿಕೆ, ಒಸಡಿನಿಂದ ರಕ್ತಸ್ರಾವ, ಸಡಿಲವಾದ ಅಥವಾ ಮುರಿದ ಹಲ್ಲು, ಅಥವಾ ಗುಣವಾಗದ ಬಾಯಿಯ ಹುಣ್ಣು ಇದ್ದರೆ ದಂತ ತಪಾಸಣೆಗೆ ಸಮಯ ಕೋರಿ. ಯಾವುದೇ ತೊಂದರೆ ಇಲ್ಲದಿದ್ದರೂ ತಪಾಸಣೆ ಮಾಡಿಸಿಕೊಳ್ಳಬಹುದು. ಊತ ಬೇಗನೆ ಹರಡುತ್ತಿದ್ದರೆ ಅಥವಾ ಉಸಿರಾಡಲು ಅಥವಾ ನುಂಗಲು ತೊಂದರೆಯಾಗುತ್ತಿದ್ದರೆ ತುರ್ತು ವೈದ್ಯಕೀಯ ನೆರವು ಪಡೆಯಿರಿ.",
+      "procedure": "ದಂತವೈದ್ಯರು ನಿಮ್ಮ ತೊಂದರೆಗಳು, ಹಿಂದಿನ ಆರೋಗ್ಯ ಸಮಸ್ಯೆಗಳು, ನೀವು ಸೇವಿಸುವ ಔಷಧಗಳು ಮತ್ತು ಅಲರ್ಜಿಗಳ ಬಗ್ಗೆ ಕೇಳುತ್ತಾರೆ. ಹಲ್ಲು, ಒಸಡು ಮತ್ತು ಬಾಯಿಯ ಇತರ ಭಾಗಗಳನ್ನು ಪರೀಕ್ಷಿಸುತ್ತಾರೆ. ಸಲಹೆ ಅಥವಾ ಚಿಕಿತ್ಸಾ ಯೋಜನೆ ರೂಪಿಸಲು ನೆರವಾಗುವುದಾದರೆ ಎಕ್ಸ್‌ರೇ ಅಥವಾ ಮತ್ತೊಂದು ಪರೀಕ್ಷೆಗೆ ಸೂಚಿಸಬಹುದು.",
+      "benefits": "ತೊಂದರೆಗೆ ಕಾರಣವೇನಿರಬಹುದು, ಯಾವ ಸಮಸ್ಯೆಗೆ ಚಿಕಿತ್ಸೆ ಬೇಕು ಮತ್ತು ಯಾವುದನ್ನು ಗಮನಿಸುತ್ತಿದ್ದರೆ ಸಾಕು ಎಂಬುದನ್ನು ತಿಳಿಯಲು ತಪಾಸಣೆ ನೆರವಾಗುತ್ತದೆ. ಕೆಲವು ಸಮಸ್ಯೆಗಳನ್ನು ಖಚಿತಪಡಿಸಲು ಹೆಚ್ಚುವರಿ ಪರೀಕ್ಷೆ ಅಥವಾ ತಜ್ಞರ ಸಲಹೆ ಬೇಕಾಗಬಹುದು.",
+      "risks": "ನೋವಿರುವ ಹಲ್ಲು ಅಥವಾ ಊದಿದ ಒಸಡನ್ನು ಪರೀಕ್ಷಿಸುವಾಗ ಸ್ವಲ್ಪ ಅಸೌಕರ್ಯವಾಗಬಹುದು. ಹಲ್ಲಿನ ಎಕ್ಸ್‌ರೇಯಲ್ಲಿ ಅಲ್ಪ ಪ್ರಮಾಣದ ವಿಕಿರಣ ಇರುತ್ತದೆ. ಅಗತ್ಯವಿದ್ದಾಗ ಮಾತ್ರ ವೈದ್ಯರು ಅದಕ್ಕೆ ಸೂಚಿಸುತ್ತಾರೆ. ನೀವು ಗರ್ಭಿಣಿಯಾಗಿದ್ದರೆ, ಗರ್ಭಿಣಿಯಾಗಿರುವ ಸಾಧ್ಯತೆ ಇದ್ದರೆ ಅಥವಾ ಎಕ್ಸ್‌ರೇ ಬಗ್ಗೆ ಚಿಂತೆ ಇದ್ದರೆ ತಿಳಿಸಿ.",
+      "aftercare": "ಯಾವ ಸಮಸ್ಯೆಗೆ ಮುಂದಿನ ತಪಾಸಣೆ ಬೇಕು ಮತ್ತು ಯಾವಾಗ ಮತ್ತೆ ಬರಬೇಕು ಎಂದು ಕೇಳಿ. ತಪಾಸಣೆ ಮಾತ್ರ ನಡೆದಿದ್ದರೆ ಸಾಮಾನ್ಯವಾಗಿ ದಿನನಿತ್ಯದ ಕೆಲಸಗಳನ್ನು ಮುಂದುವರಿಸಬಹುದು. ಚಿಕಿತ್ಸೆಗಾಗಿ ಕಾಯುವಾಗ ತೊಂದರೆ ಹೆಚ್ಚಾದರೆ ಅಥವಾ ಹೊಸದಾಗಿ ಊತ ಕಾಣಿಸಿಕೊಂಡರೆ ಚಿಕಿತ್ಸಾಲಯಕ್ಕೆ ಕರೆ ಮಾಡಿ.",
+      "faqQuestion": "ತಪಾಸಣೆಗೆ ಏನು ತರಬೇಕು?",
+      "faqAnswer": "ನೀವು ಸೇವಿಸುವ ಔಷಧಗಳ ಮತ್ತು ನಿಮಗಿರುವ ಅಲರ್ಜಿಗಳ ಪಟ್ಟಿಯನ್ನು ತನ್ನಿ. ಹಿಂದಿನ ದಂತ ಚಿಕಿತ್ಸೆಯ ದಾಖಲೆಗಳು ಅಥವಾ ಎಕ್ಸ್‌ರೇ ಇದ್ದರೆ ಅವನ್ನೂ ತನ್ನಿ.",
+      "secondFaqQuestion": "ಮೊದಲ ಭೇಟಿಯಲ್ಲೇ ಚಿಕಿತ್ಸೆ ಆರಂಭವಾಗುತ್ತದೆಯೇ?",
+      "secondFaqAnswer": "ತಪಾಸಣೆಯ ಫಲಿತಾಂಶ, ಭೇಟಿಗೆ ನಿಗದಿಪಡಿಸಿದ ಸಮಯ ಮತ್ತು ದಂತವೈದ್ಯರೊಂದಿಗೆ ನೀವು ತೆಗೆದುಕೊಳ್ಳುವ ನಿರ್ಧಾರದ ಮೇಲೆ ಅದು ಅವಲಂಬಿಸಿದೆ. ಮುಂದುವರಿಯುವ ಮೊದಲು ಲಿಖಿತ ಚಿಕಿತ್ಸಾ ಯೋಜನೆ ಮತ್ತು ಅಂದಾಜು ವೆಚ್ಚ ಕೇಳಬಹುದು.",
+      "thirdFaqQuestion": "ನನಗೆ ಆತಂಕವಿದೆ ಎಂದು ದಂತವೈದ್ಯರಿಗೆ ಹೇಳಬಹುದೇ?",
+      "thirdFaqAnswer": "ಹೌದು. ಯಾವ ವಿಷಯದ ಬಗ್ಗೆ ಭಯವಿದೆ ಎಂದು ಹೇಳಿ. ಪ್ರತಿ ಹಂತವನ್ನೂ ವಿವರಿಸುವಂತೆ ಕೇಳಬಹುದು. ಸ್ವಲ್ಪ ವಿರಾಮ ಬೇಕಾದಾಗ ಬಳಸುವ ಸಂಕೇತವನ್ನೂ ಮುಂಚಿತವಾಗಿ ಒಪ್ಪಿಕೊಳ್ಳಬಹುದು."
+    }
+  },
+  "cleaning": {
+    "en": {
+      "symptoms": "A dentist may recommend professional cleaning if there are hardened deposits, bleeding or swollen gums, or areas that are hard to clean. Gum disease may need a separate assessment and a deeper cleaning plan.",
+      "procedure": "The dental team checks your teeth and gums and uses instruments to remove plaque and hardened deposits around the gumline. Polishing may be offered when appropriate. The team can show you how to clean places that trap plaque.",
+      "benefits": "Cleaning removes deposits that brushing cannot remove and can help manage gum inflammation alongside daily care. It is different from whitening and does not repair decay or replace treatment for advanced gum disease.",
+      "risks": "The gums may bleed slightly or feel sore, and teeth can be more sensitive for a short time. Tell your dentist about bleeding conditions, medicines and areas that are unusually sensitive before the procedure.",
+      "aftercare": "Continue gentle brushing and follow the dentist's advice on cleaning between teeth. Ask how often you should return. Contact the clinic if bleeding or soreness is persistent or gets worse.",
+      "faqQuestion": "Does cleaning make teeth whiter?",
+      "faqAnswer": "Cleaning may remove some surface stains. It does not change the natural colour of the tooth the way a whitening treatment aims to.",
+      "secondFaqQuestion": "Is cleaning the same as gum treatment?",
+      "secondFaqAnswer": "Routine cleaning removes deposits. If your gums have lost support or have deep spaces around the teeth, your dentist may recommend additional periodontal treatment.",
+      "thirdFaqQuestion": "How often do I need a cleaning?",
+      "thirdFaqAnswer": "The interval depends on your gum health, how quickly deposits build up and your risk of future problems. Ask your dentist what interval suits you."
+    },
+    "kn": {
+      "symptoms": "ಹಲ್ಲಿನ ಮೇಲೆ ಗಟ್ಟಿಯಾದ ಪದರ ಕಟ್ಟಿದ್ದರೆ, ಒಸಡು ಊದಿದ್ದರೆ ಅಥವಾ ರಕ್ತ ಬರುತ್ತಿದ್ದರೆ, ಅಥವಾ ಕೆಲವು ಜಾಗಗಳನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸುವುದು ಕಷ್ಟವಾಗುತ್ತಿದ್ದರೆ ದಂತವೈದ್ಯರು ವೃತ್ತಿಪರ ಸ್ವಚ್ಛತೆಗೆ ಸೂಚಿಸಬಹುದು. ಒಸಡಿನ ಕಾಯಿಲೆ ಇದ್ದರೆ ಪ್ರತ್ಯೇಕ ತಪಾಸಣೆ ಮತ್ತು ಆಳವಾದ ಸ್ವಚ್ಛತೆ ಬೇಕಾಗಬಹುದು.",
+      "procedure": "ದಂತವೈದ್ಯರು ಹಲ್ಲು ಮತ್ತು ಒಸಡುಗಳನ್ನು ಪರಿಶೀಲಿಸುತ್ತಾರೆ. ಒಸಡಿನ ಅಂಚಿನಲ್ಲಿರುವ ಜಿಗುಟಾದ ಪದರ ಮತ್ತು ಗಟ್ಟಿಯಾದ ನಿಕ್ಷೇಪಗಳನ್ನು ದಂತ ಉಪಕರಣಗಳಿಂದ ತೆಗೆಯುತ್ತಾರೆ. ಅಗತ್ಯವಿದ್ದರೆ ಹಲ್ಲಿನ ಮೇಲ್ಮೈಯನ್ನು ಪಾಲಿಶ್ ಮಾಡಬಹುದು. ಜಿಗುಟಾದ ಪದರ ಸೇರುವ ಜಾಗಗಳನ್ನು ಮನೆಯಲ್ಲಿ ಹೇಗೆ ಸ್ವಚ್ಛಗೊಳಿಸುವುದು ಎಂದೂ ತಿಳಿಸುತ್ತಾರೆ.",
+      "benefits": "ಹಲ್ಲುಜ್ಜಿದರೂ ಹೋಗದ ನಿಕ್ಷೇಪಗಳನ್ನು ಸ್ವಚ್ಛತೆಯಿಂದ ತೆಗೆಯಬಹುದು. ದೈನಂದಿನ ಆರೈಕೆಯ ಜೊತೆಗೆ ಇದು ಒಸಡಿನ ಉರಿಯೂತವನ್ನು ನಿಯಂತ್ರಿಸಲು ನೆರವಾಗುತ್ತದೆ. ಹಲ್ಲು ಬಿಳುಪುಗೊಳಿಸುವ ಚಿಕಿತ್ಸೆ, ಹಲ್ಲಿನ ಕುಳಿ ತುಂಬಿಸುವ ಚಿಕಿತ್ಸೆ ಮತ್ತು ತೀವ್ರ ಒಸಡಿನ ಕಾಯಿಲೆಯ ಚಿಕಿತ್ಸೆ ಪ್ರತ್ಯೇಕವಾಗಿವೆ.",
+      "risks": "ಒಸಡಿನಿಂದ ಸ್ವಲ್ಪ ರಕ್ತ ಬರಬಹುದು ಅಥವಾ ನೋವಾಗಬಹುದು. ಹಲ್ಲುಗಳು ಸ್ವಲ್ಪ ಕಾಲ ಹೆಚ್ಚು ಜುಮ್ಮೆನಿಸಬಹುದು. ರಕ್ತಸ್ರಾವಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ತೊಂದರೆಗಳು, ನೀವು ಸೇವಿಸುವ ಔಷಧಗಳು ಮತ್ತು ಹೆಚ್ಚು ಜುಮ್ಮೆನಿಸುವ ಜಾಗಗಳ ಬಗ್ಗೆ ಮೊದಲೇ ತಿಳಿಸಿ.",
+      "aftercare": "ಹಲ್ಲುಗಳನ್ನು ಮೃದುವಾಗಿ ಉಜ್ಜಿ. ಹಲ್ಲುಗಳ ನಡುವಿನ ಜಾಗವನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಲು ವೈದ್ಯರು ನೀಡುವ ಸಲಹೆಯನ್ನು ಪಾಲಿಸಿ. ಮುಂದಿನ ಭೇಟಿಯ ಸಮಯ ಕೇಳಿ. ರಕ್ತಸ್ರಾವ ಅಥವಾ ನೋವು ಮುಂದುವರಿದರೆ ಅಥವಾ ಹೆಚ್ಚಾದರೆ ಚಿಕಿತ್ಸಾಲಯಕ್ಕೆ ಕರೆ ಮಾಡಿ.",
+      "faqQuestion": "ಸ್ವಚ್ಛಗೊಳಿಸಿದಾಗ ಹಲ್ಲುಗಳು ಬಿಳಿಯಾಗುತ್ತವೆಯೇ?",
+      "faqAnswer": "ಮೇಲ್ಮೈಯ ಕೆಲವು ಕಲೆಗಳು ಹೋಗಬಹುದು. ಹಲ್ಲಿನ ಸಹಜ ಬಣ್ಣವನ್ನು ಬದಲಿಸಲು ಬಳಸುವ ಬಿಳುಪುಗೊಳಿಸುವ ಚಿಕಿತ್ಸೆ ಬೇರೆ.",
+      "secondFaqQuestion": "ಸ್ವಚ್ಛಗೊಳಿಸುವಿಕೆ ಮತ್ತು ಒಸಡಿನ ಚಿಕಿತ್ಸೆ ಒಂದೇಯೇ?",
+      "secondFaqAnswer": "ಸಾಮಾನ್ಯ ಸ್ವಚ್ಛತೆಯಲ್ಲಿ ಹಲ್ಲಿನ ಮೇಲಿನ ನಿಕ್ಷೇಪಗಳನ್ನು ತೆಗೆಯುತ್ತಾರೆ. ಹಲ್ಲಿಗೆ ಒಸಡಿನ ಆಸರೆ ಕಡಿಮೆಯಾಗಿದ್ದರೆ ಅಥವಾ ಹಲ್ಲಿನ ಸುತ್ತ ಆಳವಾದ ಅಂತರಗಳಿದ್ದರೆ ಹೆಚ್ಚುವರಿ ಒಸಡಿನ ಚಿಕಿತ್ಸೆ ಅಗತ್ಯವಾಗಬಹುದು.",
+      "thirdFaqQuestion": "ಎಷ್ಟು ಬಾರಿ ಹಲ್ಲುಗಳನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಬೇಕು?",
+      "thirdFaqAnswer": "ಒಸಡಿನ ಆರೋಗ್ಯ, ಹಲ್ಲಿನ ಮೇಲೆ ಪದರ ಎಷ್ಟು ಬೇಗ ಕಟ್ಟುತ್ತದೆ ಮತ್ತು ಮುಂದಿನ ತೊಂದರೆಗಳ ಸಾಧ್ಯತೆಯನ್ನು ಅವಲಂಬಿಸಿ ಸಮಯ ನಿಗದಿಯಾಗುತ್ತದೆ. ನಿಮಗೆ ಸೂಕ್ತವಾದ ಅಂತರವನ್ನು ದಂತವೈದ್ಯರೊಂದಿಗೆ ಚರ್ಚಿಸಿ."
+    }
+  },
+  "fillings": {
+    "en": {
+      "symptoms": "A visible hole, a small chip, food getting stuck or sensitivity to sweet or cold foods may prompt an examination. The dentist checks whether a filling is suitable or whether damage extends deeper into the tooth.",
+      "procedure": "The dentist may numb the area, remove damaged tooth material and shape the remaining space. They place and shape the filling and check how it meets the opposing teeth when you bite.",
+      "benefits": "A suitable filling restores the shape of the tooth and can help protect it from further damage. Deep decay or a larger crack may need different treatment. A filled tooth can still develop new decay.",
+      "risks": "Temporary sensitivity can occur, and a filling that feels high may need adjustment. A filling may wear down, chip or loosen with time. Deep damage can cause persistent pain or require further care.",
+      "aftercare": "Wait for numbness to wear off before chewing so you do not bite your cheek or tongue. Follow any instructions for the material used. Contact the clinic if your bite feels uneven or pain is worsening or persistent.",
+      "faqQuestion": "What kind of filling might I need?",
+      "faqAnswer": "Your dentist considers the location and size of the damage, how the tooth is used and the available materials. Ask about choices and costs before treatment.",
+      "secondFaqQuestion": "Can I eat after a filling?",
+      "secondFaqAnswer": "Wait until the numbness has worn off and follow the dentist's advice. The waiting time can depend on the filling material.",
+      "thirdFaqQuestion": "When should sensitivity be checked?",
+      "thirdFaqAnswer": "Call the clinic if sensitivity is getting worse, pain lingers, the tooth hurts when you bite, or swelling develops."
+    },
+    "kn": {
+      "symptoms": "ಹಲ್ಲಿನಲ್ಲಿ ಕುಳಿ, ಸಣ್ಣ ಮುರಿತ, ಆಹಾರ ಸಿಕ್ಕಿಕೊಳ್ಳುವುದು ಅಥವಾ ಸಿಹಿ ಅಥವಾ ತಣ್ಣನೆಯ ಆಹಾರಕ್ಕೆ ಹಲ್ಲು ಜುಮ್ಮೆನಿಸುವುದು ಕಂಡುಬಂದರೆ ತಪಾಸಣೆ ಮಾಡಿಸಿ. ಕುಳಿ ತುಂಬಿಸುವ ಚಿಕಿತ್ಸೆ ಸಾಕೇ ಅಥವಾ ಹಾನಿ ಹಲ್ಲಿನ ಆಳಕ್ಕೆ ತಲುಪಿದೆಯೇ ಎಂಬುದನ್ನು ದಂತವೈದ್ಯರು ಪರಿಶೀಲಿಸುತ್ತಾರೆ.",
+      "procedure": "ದಂತವೈದ್ಯರು ಅಗತ್ಯವಿದ್ದರೆ ಆ ಭಾಗವನ್ನು ಮರಗಟ್ಟಿಸಿ, ಹಲ್ಲಿನ ಹಾನಿಯಾದ ಭಾಗವನ್ನು ತೆಗೆದು ಉಳಿದ ಜಾಗವನ್ನು ಸಿದ್ಧಪಡಿಸುತ್ತಾರೆ. ತುಂಬುವ ವಸ್ತುವನ್ನು ಹಾಕಿ ಆಕಾರ ಕೊಡುತ್ತಾರೆ. ಕಚ್ಚಿದಾಗ ಮೇಲಿನ ಮತ್ತು ಕೆಳಗಿನ ಹಲ್ಲುಗಳು ಸರಿಯಾಗಿ ಸೇರುತ್ತವೆಯೇ ಎಂದು ನೋಡುತ್ತಾರೆ.",
+      "benefits": "ಸೂಕ್ತವಾಗಿ ತುಂಬಿಸಿದರೆ ಹಲ್ಲಿನ ಆಕಾರ ಮರಳಿ ಬರುತ್ತದೆ ಮತ್ತು ಮುಂದಿನ ಹಾನಿಯನ್ನು ತಡೆಯಲು ನೆರವಾಗುತ್ತದೆ. ಆಳವಾದ ಕುಳಿ ಅಥವಾ ದೊಡ್ಡ ಬಿರುಕಿಗೆ ಬೇರೆ ಚಿಕಿತ್ಸೆ ಬೇಕಾಗಬಹುದು. ತುಂಬಿಸಿದ ಹಲ್ಲಿನಲ್ಲೂ ಮತ್ತೆ ಕುಳಿ ಉಂಟಾಗಬಹುದು.",
+      "risks": "ಸ್ವಲ್ಪ ಕಾಲ ಹಲ್ಲು ಜುಮ್ಮೆನಿಸಬಹುದು. ತುಂಬಿದ ಭಾಗ ಎತ್ತರವಾದಂತೆ ಅನಿಸಿದರೆ ಅದನ್ನು ಸರಿಪಡಿಸಬೇಕಾಗಬಹುದು. ಕಾಲಕ್ರಮೇಣ ತುಂಬಿದ ಭಾಗ ಸವೆಯಬಹುದು, ಮುರಿಯಬಹುದು ಅಥವಾ ಸಡಿಲವಾಗಬಹುದು. ಹಾನಿ ಆಳವಾಗಿದ್ದರೆ ನೋವು ಮುಂದುವರಿಯಬಹುದು ಮತ್ತು ಹೆಚ್ಚಿನ ಚಿಕಿತ್ಸೆ ಬೇಕಾಗಬಹುದು.",
+      "aftercare": "ಕೆನ್ನೆ ಅಥವಾ ನಾಲಿಗೆ ಕಚ್ಚಿಕೊಳ್ಳದಂತೆ ಮರಗಟ್ಟಿದ ಅನುಭವ ಕಡಿಮೆಯಾಗುವವರೆಗೆ ಅಗಿಯಬೇಡಿ. ಬಳಸಿದ ವಸ್ತುವಿಗೆ ಸಂಬಂಧಿಸಿದ ಸಲಹೆಗಳನ್ನು ಪಾಲಿಸಿ. ಕಚ್ಚಿದಾಗ ಹಲ್ಲುಗಳು ಸರಿಯಾಗಿ ಸೇರುವುದಿಲ್ಲವೆಂದು ಅನಿಸಿದರೆ, ನೋವು ಮುಂದುವರಿದರೆ ಅಥವಾ ಹೆಚ್ಚಾದರೆ ಚಿಕಿತ್ಸಾಲಯಕ್ಕೆ ಕರೆ ಮಾಡಿ.",
+      "faqQuestion": "ಕುಳಿ ತುಂಬಿಸಲು ಯಾವ ವಸ್ತು ಬಳಸುತ್ತಾರೆ?",
+      "faqAnswer": "ಹಾನಿಯಾದ ಜಾಗ, ಅದರ ಗಾತ್ರ, ಹಲ್ಲಿನ ಬಳಕೆ ಮತ್ತು ಲಭ್ಯವಿರುವ ವಸ್ತುಗಳನ್ನು ದಂತವೈದ್ಯರು ಪರಿಗಣಿಸುತ್ತಾರೆ. ಚಿಕಿತ್ಸೆಗೆ ಮೊದಲು ಆಯ್ಕೆಗಳು ಮತ್ತು ವೆಚ್ಚವನ್ನು ಕೇಳಿ.",
+      "secondFaqQuestion": "ಕುಳಿ ತುಂಬಿಸಿದ ನಂತರ ಊಟ ಮಾಡಬಹುದೇ?",
+      "secondFaqAnswer": "ಮರಗಟ್ಟಿದ ಅನುಭವ ಸಂಪೂರ್ಣವಾಗಿ ಕಡಿಮೆಯಾಗುವವರೆಗೆ ಕಾಯಿರಿ ಮತ್ತು ವೈದ್ಯರ ಸೂಚನೆ ಪಾಲಿಸಿ. ಬಳಸಿದ ವಸ್ತುವಿನ ಆಧಾರದಲ್ಲಿ ಕಾಯಬೇಕಾದ ಸಮಯ ಬದಲಾಗಬಹುದು.",
+      "thirdFaqQuestion": "ಹಲ್ಲು ಜುಮ್ಮೆನಿಸಿದರೆ ಯಾವಾಗ ತಪಾಸಣೆ ಮಾಡಿಸಬೇಕು?",
+      "thirdFaqAnswer": "ಜುಮ್ಮೆನಿಸುವಿಕೆ ಹೆಚ್ಚಾದರೆ, ನೋವು ಮುಂದುವರಿದರೆ, ಕಚ್ಚಿದಾಗ ಹಲ್ಲು ನೋವಾದರೆ ಅಥವಾ ಊತ ಕಂಡುಬಂದರೆ ಚಿಕಿತ್ಸಾಲಯಕ್ಕೆ ಕರೆ ಮಾಡಿ."
+    }
+  },
+  "root-canal": {
+    "en": {
+      "symptoms": "Lingering sensitivity, pain on biting, a darkened tooth or swelling near a tooth can be reasons for assessment. A tooth sometimes needs treatment without obvious pain. An examination and tests help determine whether the tissue inside the tooth is inflamed or infected.",
+      "procedure": "The dentist usually numbs the tooth and uses a protective sheet around it. They remove affected tissue from inside the tooth, clean and seal the narrow channels in its roots, and arrange a filling or crown to protect the tooth. Treatment may take more than one visit.",
+      "benefits": "Root canal treatment can relieve symptoms and often allows a restorable tooth to be kept. The outcome depends on the extent of damage and the final restoration. Ask about alternatives, including extraction, if the tooth cannot be restored reliably.",
+      "risks": "Soreness can occur after treatment. Infection can persist or return, and the tooth can fracture. Further treatment, referral or extraction may become necessary. Ask which risks apply to your tooth.",
+      "aftercare": "Avoid chewing hard foods on the treated tooth until the final restoration is in place and your dentist says it is safe. Keep follow-up visits. Call the clinic if pain is increasing, swelling returns or the temporary restoration comes out.",
+      "faqQuestion": "Will the tooth be numbed?",
+      "faqAnswer": "The dentist usually uses local anaesthetic. Tell the dentist if you feel pain during the visit so they can pause and assess what is needed.",
+      "secondFaqQuestion": "Will I need a crown afterward?",
+      "secondFaqAnswer": "Some teeth need a crown for protection. The dentist considers how much tooth remains and how much pressure it takes when you chew.",
+      "thirdFaqQuestion": "Is one visit enough?",
+      "thirdFaqAnswer": "That depends on the tooth and infection, if present. The dentist can explain how many visits are planned and when the final restoration can be placed."
+    },
+    "kn": {
+      "symptoms": "ಹಲ್ಲು ದೀರ್ಘಕಾಲ ಜುಮ್ಮೆನಿಸುವುದು, ಕಚ್ಚಿದಾಗ ನೋವು, ಹಲ್ಲು ಕಪ್ಪಾಗುವುದು ಅಥವಾ ಅದರ ಸುತ್ತ ಊತ ಕಂಡುಬರುವುದು ತಪಾಸಣೆ ಮಾಡಿಸಬೇಕಾದ ಲಕ್ಷಣಗಳು. ಕೆಲವೊಮ್ಮೆ ನೋವು ಇಲ್ಲದಿದ್ದರೂ ಚಿಕಿತ್ಸೆ ಬೇಕಾಗಬಹುದು. ಹಲ್ಲಿನ ಒಳಗಿನ ಅಂಗಾಂಶಕ್ಕೆ ಉರಿಯೂತ ಅಥವಾ ಸೋಂಕು ಇದೆಯೇ ಎಂದು ತಪಾಸಣೆ ಮತ್ತು ಪರೀಕ್ಷೆಯಿಂದ ತಿಳಿಯಬಹುದು.",
+      "procedure": "ದಂತವೈದ್ಯರು ಸಾಮಾನ್ಯವಾಗಿ ಹಲ್ಲಿನ ಸುತ್ತಲಿನ ಭಾಗವನ್ನು ಮರಗಟ್ಟಿಸಿ ಹಲ್ಲಿನ ಸುತ್ತ ರಕ್ಷಣಾ ಹಾಳೆಯನ್ನು ಹಾಕುತ್ತಾರೆ. ಹಲ್ಲಿನೊಳಗಿನ ಹಾನಿಯಾದ ಅಂಗಾಂಶವನ್ನು ತೆಗೆದು, ಬೇರಿನ ಕಿರಿದಾದ ಕಾಲುವೆಗಳನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಿ ಮುಚ್ಚುತ್ತಾರೆ. ಹಲ್ಲನ್ನು ಕಾಪಾಡಲು ತುಂಬಿಸುವಿಕೆ ಅಥವಾ ಕವಚದ ಯೋಜನೆ ರೂಪಿಸುತ್ತಾರೆ. ಚಿಕಿತ್ಸೆಗೆ ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಭೇಟಿಗಳು ಬೇಕಾಗಬಹುದು.",
+      "benefits": "ಬೇರುನಾಳ ಚಿಕಿತ್ಸೆಯಿಂದ ತೊಂದರೆ ಕಡಿಮೆಯಾಗಬಹುದು ಮತ್ತು ಸರಿಪಡಿಸಲು ಸಾಧ್ಯವಿರುವ ಹಲ್ಲನ್ನು ಉಳಿಸಬಹುದು. ಫಲಿತಾಂಶ ಹಾನಿಯ ಪ್ರಮಾಣ ಮತ್ತು ಅಂತಿಮವಾಗಿ ಹಲ್ಲನ್ನು ಹೇಗೆ ಮರುಸ್ಥಾಪಿಸಲಾಗುತ್ತದೆ ಎಂಬುದರ ಮೇಲೆ ಅವಲಂಬಿಸಿದೆ. ಹಲ್ಲನ್ನು ಉಳಿಸುವ ಸಾಧ್ಯತೆ ಕಡಿಮೆಯಿದ್ದರೆ ಅದನ್ನು ತೆಗೆಯುವುದು ಸೇರಿದಂತೆ ಇತರ ಆಯ್ಕೆಗಳ ಬಗ್ಗೆ ಕೇಳಿ.",
+      "risks": "ಚಿಕಿತ್ಸೆಯ ನಂತರ ನೋವಾಗಬಹುದು. ಸೋಂಕು ಉಳಿಯಬಹುದು ಅಥವಾ ಮತ್ತೆ ಬರಬಹುದು. ಹಲ್ಲು ಬಿರುಕು ಬಿಡಬಹುದು ಅಥವಾ ಮುರಿಯಬಹುದು. ಹೆಚ್ಚುವರಿ ಚಿಕಿತ್ಸೆ, ತಜ್ಞರ ಸಲಹೆ ಅಥವಾ ಹಲ್ಲು ತೆಗೆಯುವುದು ಅಗತ್ಯವಾಗಬಹುದು. ನಿಮ್ಮ ಹಲ್ಲಿಗೆ ಯಾವ ಅಪಾಯಗಳು ಅನ್ವಯಿಸುತ್ತವೆ ಎಂದು ಕೇಳಿ.",
+      "aftercare": "ಹಲ್ಲಿಗೆ ಅಂತಿಮ ತುಂಬಿಸುವಿಕೆ ಅಥವಾ ಕವಚ ಹಾಕಿ ದಂತವೈದ್ಯರು ಸುರಕ್ಷಿತವೆಂದು ತಿಳಿಸುವವರೆಗೆ ಆ ಹಲ್ಲಿನಿಂದ ಗಟ್ಟಿ ಆಹಾರ ಅಗಿಯಬೇಡಿ. ಮುಂದಿನ ಭೇಟಿಗಳಿಗೆ ತಪ್ಪದೆ ಬನ್ನಿ. ನೋವು ಹೆಚ್ಚಾದರೆ, ಮತ್ತೆ ಊತ ಬಂದರೆ ಅಥವಾ ತಾತ್ಕಾಲಿಕವಾಗಿ ತುಂಬಿದ ಭಾಗ ಕಳಚಿದರೆ ಚಿಕಿತ್ಸಾಲಯಕ್ಕೆ ಕರೆ ಮಾಡಿ.",
+      "faqQuestion": "ಚಿಕಿತ್ಸೆಗೆ ಮೊದಲು ಹಲ್ಲಿನ ಸುತ್ತ ಮರಗಟ್ಟಿಸುತ್ತಾರೆಯೇ?",
+      "faqAnswer": "ದಂತವೈದ್ಯರು ಸಾಮಾನ್ಯವಾಗಿ ಸ್ಥಳೀಯ ಮರಗಟ್ಟಿಸುವ ಔಷಧ ಬಳಸುತ್ತಾರೆ. ಚಿಕಿತ್ಸೆಯ ವೇಳೆ ನೋವಾದರೆ ತಕ್ಷಣ ತಿಳಿಸಿ. ವೈದ್ಯರು ನಿಲ್ಲಿಸಿ ಏನು ಮಾಡಬೇಕೆಂದು ಪರಿಶೀಲಿಸುತ್ತಾರೆ.",
+      "secondFaqQuestion": "ಬೇರುನಾಳ ಚಿಕಿತ್ಸೆಯ ಬಳಿಕ ಹಲ್ಲಿನ ಕವಚ ಬೇಕೇ?",
+      "secondFaqAnswer": "ಕೆಲವು ಹಲ್ಲುಗಳನ್ನು ಕಾಪಾಡಲು ಕವಚ ಬೇಕಾಗುತ್ತದೆ. ಹಲ್ಲಿನ ಎಷ್ಟು ಭಾಗ ಉಳಿದಿದೆ ಮತ್ತು ಅಗಿಯುವಾಗ ಎಷ್ಟು ಒತ್ತಡ ಬೀಳುತ್ತದೆ ಎಂಬುದನ್ನು ದಂತವೈದ್ಯರು ಪರಿಗಣಿಸುತ್ತಾರೆ.",
+      "thirdFaqQuestion": "ಒಂದೇ ಭೇಟಿ ಸಾಕಾಗುತ್ತದೆಯೇ?",
+      "thirdFaqAnswer": "ಅದು ಹಲ್ಲಿನ ಸ್ಥಿತಿ ಮತ್ತು ಸೋಂಕು ಇದ್ದರೆ ಅದರ ಪ್ರಮಾಣವನ್ನು ಅವಲಂಬಿಸುತ್ತದೆ. ಎಷ್ಟು ಭೇಟಿಗಳು ಬೇಕು ಹಾಗೂ ಅಂತಿಮ ತುಂಬಿಸುವಿಕೆ ಅಥವಾ ಕವಚವನ್ನು ಯಾವಾಗ ಹಾಕಬಹುದು ಎಂದು ದಂತವೈದ್ಯರು ತಿಳಿಸುತ್ತಾರೆ."
+    }
+  },
+  "crowns": {
+    "en": {
+      "symptoms": "A crown may be considered for a tooth that is cracked, worn down, heavily filled or fragile after root canal treatment. Symptoms alone do not establish that a crown is right. The dentist checks how much healthy tooth and gum support remain.",
+      "procedure": "The dentist usually shapes the tooth and takes a scan or impression for the crown. A temporary cover may be fitted while the permanent crown is made. At fitting, the dentist checks the shape, contact between teeth and bite before securing the crown.",
+      "benefits": "A crown can protect a weakened tooth and restore its shape and chewing surface. A smaller restoration can be suitable in some cases. A crown needs ongoing care and may eventually need repair or replacement.",
+      "risks": "Preparing the tooth removes some tooth structure. Sensitivity, discomfort on biting, decay at the edge, or chipping or loosening can occur. Occasionally the tooth needs further treatment.",
+      "aftercare": "Follow the instructions for a temporary crown and contact the clinic if it comes off. Clean around the crown and between neighbouring teeth as advised. Call the clinic if the crown feels loose or your bite feels uncomfortable.",
+      "faqQuestion": "How long does it take to fit a crown?",
+      "faqAnswer": "Timing depends on the tooth, the material and how the crown is made. Ask whether you will need a temporary crown and when the next visit is planned.",
+      "secondFaqQuestion": "Can a tooth decay under a crown?",
+      "secondFaqAnswer": "Decay can develop around the edge of a crown. Daily cleaning, fluoride toothpaste and check-ups help monitor and protect the tooth.",
+      "thirdFaqQuestion": "What if my temporary crown comes off?",
+      "thirdFaqAnswer": "Keep it if you can and call the clinic for advice. Do not try to attach it with household glue."
+    },
+    "kn": {
+      "symptoms": "ಹಲ್ಲಿನಲ್ಲಿ ಬಿರುಕು ಇದ್ದರೆ, ಬಹಳಷ್ಟು ಸವೆದಿದ್ದರೆ, ದೊಡ್ಡ ಭಾಗವನ್ನು ತುಂಬಿಸಿದ್ದರೆ ಅಥವಾ ಬೇರುನಾಳ ಚಿಕಿತ್ಸೆಯ ನಂತರ ದುರ್ಬಲವಾಗಿದ್ದರೆ ಕವಚವನ್ನು ಪರಿಗಣಿಸಬಹುದು. ತಪಾಸಣೆಯ ವೇಳೆ ಆರೋಗ್ಯಕರ ಹಲ್ಲಿನ ಭಾಗ ಮತ್ತು ಒಸಡಿನ ಆಸರೆ ಎಷ್ಟು ಉಳಿದಿದೆ ಎಂದು ಪರಿಶೀಲಿಸಿ ದಂತವೈದ್ಯರು ನಿರ್ಧರಿಸುತ್ತಾರೆ.",
+      "procedure": "ದಂತವೈದ್ಯರು ಸಾಮಾನ್ಯವಾಗಿ ಹಲ್ಲಿಗೆ ಬೇಕಾದ ಆಕಾರ ನೀಡಿ ಕವಚ ತಯಾರಿಸಲು ಸ್ಕ್ಯಾನ್ ಮಾಡುತ್ತಾರೆ ಅಥವಾ ಅಚ್ಚು ತೆಗೆದುಕೊಳ್ಳುತ್ತಾರೆ. ಶಾಶ್ವತ ಕವಚ ಸಿದ್ಧವಾಗುವವರೆಗೆ ತಾತ್ಕಾಲಿಕ ಕವಚ ಹಾಕಬಹುದು. ಶಾಶ್ವತ ಕವಚವನ್ನು ಅಳವಡಿಸುವಾಗ ಅದರ ಆಕಾರ, ಪಕ್ಕದ ಹಲ್ಲುಗಳ ಸಂಪರ್ಕ ಮತ್ತು ಕಚ್ಚುವಿಕೆ ಸರಿಯಾಗಿದೆಯೇ ಎಂದು ನೋಡುತ್ತಾರೆ.",
+      "benefits": "ಕವಚ ದುರ್ಬಲವಾದ ಹಲ್ಲನ್ನು ಕಾಪಾಡಿ, ಅದರ ಆಕಾರ ಮತ್ತು ಅಗಿಯುವ ಮೇಲ್ಮೈಯನ್ನು ಮರಳಿ ನೀಡಬಹುದು. ಕೆಲವು ಹಲ್ಲುಗಳಿಗೆ ಚಿಕ್ಕ ಪ್ರಮಾಣದ ದುರಸ್ತಿಯೇ ಸಾಕಾಗುತ್ತದೆ. ಕವಚಕ್ಕೂ ನಿರಂತರ ಆರೈಕೆ ಬೇಕು. ಕಾಲಕ್ರಮೇಣ ದುರಸ್ತಿ ಅಥವಾ ಬದಲಾವಣೆ ಅಗತ್ಯವಾಗಬಹುದು.",
+      "risks": "ಕವಚ ಅಳವಡಿಸಲು ಹಲ್ಲಿನ ಸ್ವಲ್ಪ ಭಾಗವನ್ನು ತೆಗೆಯಬೇಕಾಗುತ್ತದೆ. ಹಲ್ಲು ಜುಮ್ಮೆನಿಸಬಹುದು ಅಥವಾ ಕಚ್ಚಿದಾಗ ಅಸೌಕರ್ಯವಾಗಬಹುದು. ಕವಚದ ಅಂಚಿನಲ್ಲಿ ಹಲ್ಲು ಹುಳುಕಾಗಬಹುದು, ಕವಚ ಮುರಿಯಬಹುದು ಅಥವಾ ಸಡಿಲವಾಗಬಹುದು. ಕೆಲವೊಮ್ಮೆ ಹೆಚ್ಚುವರಿ ಚಿಕಿತ್ಸೆ ಬೇಕಾಗುತ್ತದೆ.",
+      "aftercare": "ತಾತ್ಕಾಲಿಕ ಕವಚಕ್ಕೆ ನೀಡಿದ ಸೂಚನೆಗಳನ್ನು ಪಾಲಿಸಿ. ಕವಚ ಕಳಚಿದರೆ ಚಿಕಿತ್ಸಾಲಯಕ್ಕೆ ಕರೆ ಮಾಡಿ. ಕವಚದ ಸುತ್ತ ಮತ್ತು ಪಕ್ಕದ ಹಲ್ಲುಗಳ ಮಧ್ಯೆ ವೈದ್ಯರು ತಿಳಿಸಿದಂತೆ ಸ್ವಚ್ಛಗೊಳಿಸಿ. ಕವಚ ಸಡಿಲವಾದಂತೆ ಅನಿಸಿದರೆ ಅಥವಾ ಕಚ್ಚುವಾಗ ಅಸೌಕರ್ಯವಾಗುತ್ತಿದ್ದರೆ ಕರೆ ಮಾಡಿ.",
+      "faqQuestion": "ಕವಚ ಅಳವಡಿಸಲು ಎಷ್ಟು ಸಮಯ ಬೇಕು?",
+      "faqAnswer": "ಹಲ್ಲಿನ ಸ್ಥಿತಿ, ಕವಚದ ವಸ್ತು ಮತ್ತು ತಯಾರಿಸುವ ವಿಧಾನವನ್ನು ಅವಲಂಬಿಸಿ ಸಮಯ ಬದಲಾಗುತ್ತದೆ. ತಾತ್ಕಾಲಿಕ ಕವಚ ಬೇಕೇ ಮತ್ತು ಮುಂದಿನ ಭೇಟಿ ಯಾವಾಗ ಎಂದು ಕೇಳಿ.",
+      "secondFaqQuestion": "ಕವಚದ ಕೆಳಗೆ ಹಲ್ಲು ಹುಳುಕಾಗಬಹುದೇ?",
+      "secondFaqAnswer": "ಕವಚದ ಅಂಚಿನಲ್ಲಿ ಹಲ್ಲು ಹುಳುಕಾಗಬಹುದು. ಪ್ರತಿದಿನ ಸ್ವಚ್ಛಗೊಳಿಸುವುದು, ಫ್ಲೂರೈಡ್ ಇರುವ ಟೂತ್‌ಪೇಸ್ಟ್ ಬಳಸುವುದು ಮತ್ತು ನಿಯಮಿತ ತಪಾಸಣೆ ಹಲ್ಲನ್ನು ಕಾಪಾಡಲು ನೆರವಾಗುತ್ತವೆ.",
+      "thirdFaqQuestion": "ತಾತ್ಕಾಲಿಕ ಕವಚ ಕಳಚಿದರೆ ಏನು ಮಾಡಬೇಕು?",
+      "thirdFaqAnswer": "ಸಾಧ್ಯವಾದರೆ ಕಳಚಿದ ಕವಚವನ್ನು ಇಟ್ಟುಕೊಳ್ಳಿ ಮತ್ತು ಸಲಹೆಗಾಗಿ ಚಿಕಿತ್ಸಾಲಯಕ್ಕೆ ಕರೆ ಮಾಡಿ. ಮನೆಯಲ್ಲಿ ಬಳಸುವ ಅಂಟಿನಿಂದ ಅದನ್ನು ಮತ್ತೆ ಅಂಟಿಸಲು ಪ್ರಯತ್ನಿಸಬೇಡಿ."
+    }
+  },
+  "extraction": {
+    "en": {
+      "symptoms": "Extraction may be considered when a tooth is badly damaged, has lost support, or is causing problems and suitable alternatives are limited. Examination and sometimes an X-ray help the dentist explain whether the tooth can be kept or whether a referral is needed.",
+      "procedure": "The dentist reviews your health, medicines and imaging before treatment. The area is usually numbed with local anaesthetic. The tooth is loosened and removed, and the dentist helps control bleeding. Some teeth need a surgical approach or specialist care.",
+      "benefits": "Removing the tooth may address a problem when it cannot reliably be restored. Losing a tooth can affect chewing and the position of neighbouring teeth. Ask about replacement options if relevant.",
+      "risks": "Pain, swelling and bleeding can occur. Infection or a painful empty socket can slow recovery. Depending on the tooth position, nearby teeth, nerves or the sinus may be affected. The dentist can explain your individual risks before treatment.",
+      "aftercare": "Follow the dentist's written instructions on bleeding, food, cleaning and medicines. Avoid smoking and protect the healing area from disturbance. Contact the clinic for heavy bleeding that continues, worsening pain or swelling, or fever. Seek emergency care for difficulty breathing or swallowing.",
+      "faqQuestion": "Should I tell my dentist I take blood thinners?",
+      "faqAnswer": "Yes. Tell the dentist about all medicines and health conditions before treatment. Do not stop a prescribed medicine on your own. The dentist can coordinate guidance when needed.",
+      "secondFaqQuestion": "Can every tooth be removed at the clinic?",
+      "secondFaqAnswer": "The examination and imaging help determine what is safe. A complex position, certain medical conditions or other risks may require referral.",
+      "thirdFaqQuestion": "Will I need to replace the removed tooth?",
+      "thirdFaqAnswer": "It depends on the tooth, the other teeth and your preferences. Discuss the effects of leaving the space and the timing and costs of possible replacements."
+    },
+    "kn": {
+      "symptoms": "ಹಲ್ಲಿಗೆ ತೀವ್ರ ಹಾನಿಯಾಗಿದ್ದರೆ, ಅದರ ಆಸರೆ ಕಡಿಮೆಯಾಗಿದ್ದರೆ ಅಥವಾ ಹಲ್ಲು ತೊಂದರೆ ಕೊಡುತ್ತಿದ್ದು ಸೂಕ್ತ ಪರ್ಯಾಯಗಳು ಕಡಿಮೆ ಇದ್ದರೆ ಅದನ್ನು ತೆಗೆಯಲು ಪರಿಗಣಿಸಬಹುದು. ಹಲ್ಲನ್ನು ಉಳಿಸಬಹುದೇ ಅಥವಾ ತಜ್ಞರ ಬಳಿ ಹೋಗಬೇಕೇ ಎಂದು ತಪಾಸಣೆ ಮತ್ತು ಅಗತ್ಯವಿದ್ದರೆ ಎಕ್ಸ್‌ರೇ ಮೂಲಕ ತಿಳಿಯಬಹುದು.",
+      "procedure": "ಚಿಕಿತ್ಸೆಗೆ ಮೊದಲು ದಂತವೈದ್ಯರು ನಿಮ್ಮ ಆರೋಗ್ಯ, ಔಷಧಗಳು ಮತ್ತು ಎಕ್ಸ್‌ರೇ ವರದಿಯನ್ನು ಪರಿಶೀಲಿಸುತ್ತಾರೆ. ಸಾಮಾನ್ಯವಾಗಿ ಆ ಭಾಗವನ್ನು ಮರಗಟ್ಟಿಸಿ ಹಲ್ಲನ್ನು ಸಡಿಲಗೊಳಿಸಿ ತೆಗೆಯುತ್ತಾರೆ ಮತ್ತು ರಕ್ತಸ್ರಾವವನ್ನು ನಿಯಂತ್ರಿಸಲು ನೆರವಾಗುತ್ತಾರೆ. ಕೆಲವು ಹಲ್ಲುಗಳನ್ನು ತೆಗೆಯಲು ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ ಅಥವಾ ತಜ್ಞರ ಆರೈಕೆ ಬೇಕಾಗಬಹುದು.",
+      "benefits": "ಹಲ್ಲನ್ನು ಸರಿಪಡಿಸಿ ಉಳಿಸಿಕೊಳ್ಳುವ ಸಾಧ್ಯತೆ ಕಡಿಮೆಯಿದ್ದರೆ, ಅದನ್ನು ತೆಗೆಯುವುದರಿಂದ ತೊಂದರೆ ನಿವಾರಣೆಯಾಗಬಹುದು. ಹಲ್ಲು ಇಲ್ಲದಿರುವುದು ಆಹಾರ ಅಗಿಯುವಿಕೆ ಮತ್ತು ಪಕ್ಕದ ಹಲ್ಲುಗಳ ಸ್ಥಾನವನ್ನು ಬದಲಾಯಿಸಬಹುದು. ಅಗತ್ಯವಿದ್ದರೆ ಬದಲಿ ಹಲ್ಲಿನ ಆಯ್ಕೆಗಳ ಬಗ್ಗೆ ಕೇಳಿ.",
+      "risks": "ನೋವು, ಊತ ಮತ್ತು ರಕ್ತಸ್ರಾವ ಉಂಟಾಗಬಹುದು. ಸೋಂಕು ತಗುಲಿದರೆ ಅಥವಾ ಹಲ್ಲು ತೆಗೆದ ಜಾಗದಲ್ಲಿ ರಕ್ತ ಹೆಪ್ಪುಗಟ್ಟದೆ ನೋವಾದರೆ ಗುಣವಾಗಲು ಹೆಚ್ಚು ಸಮಯ ಬೇಕಾಗಬಹುದು. ಹಲ್ಲಿನ ಸ್ಥಾನಕ್ಕೆ ಅನುಗುಣವಾಗಿ ಹತ್ತಿರದ ಹಲ್ಲು, ನರ ಅಥವಾ ಸೈನಸ್‌ಗೆ ತೊಂದರೆಯಾಗಬಹುದು. ಚಿಕಿತ್ಸೆಗೆ ಮೊದಲು ನಿಮಗೆ ಅನ್ವಯಿಸುವ ಅಪಾಯಗಳನ್ನು ಕೇಳಿ.",
+      "aftercare": "ರಕ್ತಸ್ರಾವ, ಆಹಾರ, ಸ್ವಚ್ಛತೆ ಮತ್ತು ಔಷಧಗಳ ಕುರಿತು ದಂತವೈದ್ಯರು ನೀಡಿದ ಲಿಖಿತ ಸೂಚನೆಗಳನ್ನು ಪಾಲಿಸಿ. ಧೂಮಪಾನ ಮಾಡಬೇಡಿ ಮತ್ತು ಗುಣವಾಗುತ್ತಿರುವ ಜಾಗಕ್ಕೆ ತೊಂದರೆಯಾಗದಂತೆ ನೋಡಿಕೊಳ್ಳಿ. ಹೆಚ್ಚು ರಕ್ತಸ್ರಾವ ನಿಲ್ಲದಿದ್ದರೆ, ನೋವು ಅಥವಾ ಊತ ಹೆಚ್ಚಾದರೆ, ಅಥವಾ ಜ್ವರ ಬಂದರೆ ಚಿಕಿತ್ಸಾಲಯಕ್ಕೆ ಕರೆ ಮಾಡಿ. ಉಸಿರಾಡಲು ಅಥವಾ ನುಂಗಲು ತೊಂದರೆಯಾದರೆ ತುರ್ತು ವೈದ್ಯಕೀಯ ನೆರವು ಪಡೆಯಿರಿ.",
+      "faqQuestion": "ರಕ್ತ ಹೆಪ್ಪುಗಟ್ಟುವುದನ್ನು ತಡೆಯುವ ಔಷಧ ಸೇವಿಸುತ್ತಿದ್ದರೆ ತಿಳಿಸಬೇಕೇ?",
+      "faqAnswer": "ಹೌದು. ಚಿಕಿತ್ಸೆಗೆ ಮೊದಲು ನೀವು ಸೇವಿಸುವ ಎಲ್ಲ ಔಷಧಗಳು ಮತ್ತು ಆರೋಗ್ಯ ಸಮಸ್ಯೆಗಳ ಬಗ್ಗೆ ತಿಳಿಸಿ. ವೈದ್ಯರು ಸೂಚಿಸಿದ ಔಷಧವನ್ನು ನೀವಾಗಿಯೇ ನಿಲ್ಲಿಸಬೇಡಿ. ಅಗತ್ಯವಿದ್ದರೆ ದಂತವೈದ್ಯರು ಸಂಬಂಧಿಸಿದ ವೈದ್ಯರ ಸಲಹೆ ಪಡೆಯುತ್ತಾರೆ.",
+      "secondFaqQuestion": "ಎಲ್ಲ ಹಲ್ಲುಗಳನ್ನೂ ಚಿಕಿತ್ಸಾಲಯದಲ್ಲೇ ತೆಗೆಯಬಹುದೇ?",
+      "secondFaqAnswer": "ತಪಾಸಣೆ ಮತ್ತು ಎಕ್ಸ್‌ರೇ ಮೂಲಕ ಸುರಕ್ಷಿತ ಆಯ್ಕೆ ಯಾವುದು ಎಂದು ತಿಳಿಯಬಹುದು. ಹಲ್ಲಿನ ಸ್ಥಾನ ಸಂಕೀರ್ಣವಾಗಿದ್ದರೆ, ಕೆಲವು ಆರೋಗ್ಯ ಸಮಸ್ಯೆಗಳು ಅಥವಾ ಇತರ ಅಪಾಯಗಳಿದ್ದರೆ ತಜ್ಞರ ಬಳಿ ಕಳುಹಿಸಬಹುದು.",
+      "thirdFaqQuestion": "ತೆಗೆದ ಹಲ್ಲಿನ ಬದಲಿಗೆ ಕೃತಕ ಹಲ್ಲು ಹಾಕಿಸಬೇಕೇ?",
+      "thirdFaqAnswer": "ಅದು ಯಾವ ಹಲ್ಲನ್ನು ತೆಗೆಯಲಾಗಿದೆ, ಇತರ ಹಲ್ಲುಗಳ ಸ್ಥಿತಿ ಮತ್ತು ನಿಮ್ಮ ಆಯ್ಕೆಯನ್ನು ಅವಲಂಬಿಸುತ್ತದೆ. ಜಾಗವನ್ನು ಖಾಲಿ ಬಿಟ್ಟರೆ ಆಗುವ ಪರಿಣಾಮಗಳು, ಬದಲಿ ಹಲ್ಲು ಹಾಕಿಸುವ ಸಮಯ ಮತ್ತು ವೆಚ್ಚವನ್ನು ದಂತವೈದ್ಯರೊಂದಿಗೆ ಚರ್ಚಿಸಿ."
+    }
+  }
+}

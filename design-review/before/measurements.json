@@ -1,0 +1,625 @@
+{
+  "mode": "before",
+  "captures": [
+    {
+      "file": "admin-login-1440.webp",
+      "path": "/admin/login",
+      "status": 200,
+      "title": "Staff sign in",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "brokenImages": []
+    },
+    {
+      "file": "admin-dashboard-1440.webp",
+      "path": "/admin",
+      "status": 200,
+      "title": "Clinic content",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 3472,
+      "brokenImages": []
+    },
+    {
+      "file": "admin-appointments-1440.webp",
+      "path": "/admin/appointments",
+      "status": 200,
+      "title": "Appointments",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1182,
+      "brokenImages": []
+    },
+    {
+      "file": "en-home-1440.webp",
+      "path": "/en/",
+      "status": 200,
+      "title": "Dental care close to home | Sumukha Dental Clinic",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1594,
+      "brokenImages": []
+    },
+    {
+      "file": "en-treatments-1440.webp",
+      "path": "/en/services",
+      "status": 200,
+      "title": "Dental treatments | Sumukha Dental Clinic",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "brokenImages": []
+    },
+    {
+      "file": "en-booking-1440.webp",
+      "path": "/en/book-appointment",
+      "status": 200,
+      "title": "Request an appointment | Sumukha Dental Clinic",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1722,
+      "brokenImages": []
+    },
+    {
+      "file": "en-contact-1440.webp",
+      "path": "/en/contact",
+      "status": 200,
+      "title": "Contact the clinic | Sumukha Dental Clinic",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "brokenImages": []
+    },
+    {
+      "file": "en-about-1440.webp",
+      "path": "/en/about",
+      "status": 200,
+      "title": "About Sumukha Dental Clinic | Sumukha Dental Clinic",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "brokenImages": []
+    },
+    {
+      "file": "en-doctor-1440.webp",
+      "path": "/en/doctor",
+      "status": 200,
+      "title": "Our Doctor | Sumukha Dental Clinic",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "brokenImages": []
+    },
+    {
+      "file": "en-faq-1440.webp",
+      "path": "/en/faq",
+      "status": 200,
+      "title": "Frequently asked questions | Sumukha Dental Clinic",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "brokenImages": []
+    },
+    {
+      "file": "en-gallery-1440.webp",
+      "path": "/en/gallery",
+      "status": 200,
+      "title": "Gallery | Sumukha Dental Clinic",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "brokenImages": []
+    },
+    {
+      "file": "en-status-1440.webp",
+      "path": "/en/appointment-status",
+      "status": 200,
+      "title": "Appointment status | Sumukha Dental Clinic",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1024,
+      "brokenImages": []
+    },
+    {
+      "file": "en-privacy-1440.webp",
+      "path": "/en/privacy",
+      "status": 200,
+      "title": "Privacy Policy | Sumukha Dental Clinic",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "brokenImages": []
+    },
+    {
+      "file": "en-terms-1440.webp",
+      "path": "/en/terms",
+      "status": 200,
+      "title": "Terms and Conditions | Sumukha Dental Clinic",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "brokenImages": []
+    },
+    {
+      "file": "en-accessibility-1440.webp",
+      "path": "/en/accessibility",
+      "status": 200,
+      "title": "Accessibility | Sumukha Dental Clinic",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-home-1440.webp",
+      "path": "/kn/",
+      "status": 200,
+      "title": "ನಿಮ್ಮ ಸಮೀಪದಲ್ಲೇ ದಂತ ಆರೈಕೆ | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1740,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-treatments-1440.webp",
+      "path": "/kn/services",
+      "status": 200,
+      "title": "ದಂತ ಚಿಕಿತ್ಸೆಗಳು | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-booking-1440.webp",
+      "path": "/kn/book-appointment",
+      "status": 200,
+      "title": "ಭೇಟಿಗಾಗಿ ವಿನಂತಿಸಿ | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1734,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-contact-1440.webp",
+      "path": "/kn/contact",
+      "status": 200,
+      "title": "ಚಿಕಿತ್ಸಾಲಯವನ್ನು ಸಂಪರ್ಕಿಸಿ | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1075,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-about-1440.webp",
+      "path": "/kn/about",
+      "status": 200,
+      "title": "ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯದ ಬಗ್ಗೆ | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-doctor-1440.webp",
+      "path": "/kn/doctor",
+      "status": 200,
+      "title": "ನಮ್ಮ ವೈದ್ಯರು | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-faq-1440.webp",
+      "path": "/kn/faq",
+      "status": 200,
+      "title": "ಪದೇ ಪದೇ ಕೇಳುವ ಪ್ರಶ್ನೆಗಳು | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-gallery-1440.webp",
+      "path": "/kn/gallery",
+      "status": 200,
+      "title": "ಚಿತ್ರಸಂಗ್ರಹ | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-status-1440.webp",
+      "path": "/kn/appointment-status",
+      "status": 200,
+      "title": "ಭೇಟಿ ಕೋರಿಕೆಯ ಸ್ಥಿತಿ | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1099,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-privacy-1440.webp",
+      "path": "/kn/privacy",
+      "status": 200,
+      "title": "ಗೌಪ್ಯತಾ ನೀತಿ | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-terms-1440.webp",
+      "path": "/kn/terms",
+      "status": 200,
+      "title": "ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳು | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-accessibility-1440.webp",
+      "path": "/kn/accessibility",
+      "status": 200,
+      "title": "ಸುಲಭ ಪ್ರವೇಶ | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "brokenImages": []
+    },
+    {
+      "file": "admin-login-390.webp",
+      "path": "/admin/login",
+      "status": 200,
+      "title": "Staff sign in",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "brokenImages": []
+    },
+    {
+      "file": "admin-dashboard-390.webp",
+      "path": "/admin",
+      "status": 200,
+      "title": "Clinic content",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 3385,
+      "brokenImages": []
+    },
+    {
+      "file": "admin-appointments-390.webp",
+      "path": "/admin/appointments",
+      "status": 200,
+      "title": "Appointments",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 1114,
+      "brokenImages": []
+    },
+    {
+      "file": "en-home-390.webp",
+      "path": "/en/",
+      "status": 200,
+      "title": "Dental care close to home | Sumukha Dental Clinic",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 1545,
+      "brokenImages": []
+    },
+    {
+      "file": "en-treatments-390.webp",
+      "path": "/en/services",
+      "status": 200,
+      "title": "Dental treatments | Sumukha Dental Clinic",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "brokenImages": []
+    },
+    {
+      "file": "en-booking-390.webp",
+      "path": "/en/book-appointment",
+      "status": 200,
+      "title": "Request an appointment | Sumukha Dental Clinic",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 1542,
+      "brokenImages": []
+    },
+    {
+      "file": "en-contact-390.webp",
+      "path": "/en/contact",
+      "status": 200,
+      "title": "Contact the clinic | Sumukha Dental Clinic",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "brokenImages": []
+    },
+    {
+      "file": "en-about-390.webp",
+      "path": "/en/about",
+      "status": 200,
+      "title": "About Sumukha Dental Clinic | Sumukha Dental Clinic",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "brokenImages": []
+    },
+    {
+      "file": "en-doctor-390.webp",
+      "path": "/en/doctor",
+      "status": 200,
+      "title": "Our Doctor | Sumukha Dental Clinic",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "brokenImages": []
+    },
+    {
+      "file": "en-faq-390.webp",
+      "path": "/en/faq",
+      "status": 200,
+      "title": "Frequently asked questions | Sumukha Dental Clinic",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "brokenImages": []
+    },
+    {
+      "file": "en-gallery-390.webp",
+      "path": "/en/gallery",
+      "status": 200,
+      "title": "Gallery | Sumukha Dental Clinic",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "brokenImages": []
+    },
+    {
+      "file": "en-status-390.webp",
+      "path": "/en/appointment-status",
+      "status": 200,
+      "title": "Appointment status | Sumukha Dental Clinic",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 848,
+      "brokenImages": []
+    },
+    {
+      "file": "en-privacy-390.webp",
+      "path": "/en/privacy",
+      "status": 200,
+      "title": "Privacy Policy | Sumukha Dental Clinic",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "brokenImages": []
+    },
+    {
+      "file": "en-terms-390.webp",
+      "path": "/en/terms",
+      "status": 200,
+      "title": "Terms and Conditions | Sumukha Dental Clinic",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "brokenImages": []
+    },
+    {
+      "file": "en-accessibility-390.webp",
+      "path": "/en/accessibility",
+      "status": 200,
+      "title": "Accessibility | Sumukha Dental Clinic",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-home-390.webp",
+      "path": "/kn/",
+      "status": 200,
+      "title": "ನಿಮ್ಮ ಸಮೀಪದಲ್ಲೇ ದಂತ ಆರೈಕೆ | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 1628,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-treatments-390.webp",
+      "path": "/kn/services",
+      "status": 200,
+      "title": "ದಂತ ಚಿಕಿತ್ಸೆಗಳು | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 845,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-booking-390.webp",
+      "path": "/kn/book-appointment",
+      "status": 200,
+      "title": "ಭೇಟಿಗಾಗಿ ವಿನಂತಿಸಿ | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 1626,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-contact-390.webp",
+      "path": "/kn/contact",
+      "status": 200,
+      "title": "ಚಿಕಿತ್ಸಾಲಯವನ್ನು ಸಂಪರ್ಕಿಸಿ | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 889,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-about-390.webp",
+      "path": "/kn/about",
+      "status": 200,
+      "title": "ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯದ ಬಗ್ಗೆ | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 845,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-doctor-390.webp",
+      "path": "/kn/doctor",
+      "status": 200,
+      "title": "ನಮ್ಮ ವೈದ್ಯರು | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 845,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-faq-390.webp",
+      "path": "/kn/faq",
+      "status": 200,
+      "title": "ಪದೇ ಪದೇ ಕೇಳುವ ಪ್ರಶ್ನೆಗಳು | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 845,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-gallery-390.webp",
+      "path": "/kn/gallery",
+      "status": 200,
+      "title": "ಚಿತ್ರಸಂಗ್ರಹ | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 845,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-status-390.webp",
+      "path": "/kn/appointment-status",
+      "status": 200,
+      "title": "ಭೇಟಿ ಕೋರಿಕೆಯ ಸ್ಥಿತಿ | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 885,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-privacy-390.webp",
+      "path": "/kn/privacy",
+      "status": 200,
+      "title": "ಗೌಪ್ಯತಾ ನೀತಿ | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 845,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-terms-390.webp",
+      "path": "/kn/terms",
+      "status": 200,
+      "title": "ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳು | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 845,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-accessibility-390.webp",
+      "path": "/kn/accessibility",
+      "status": 200,
+      "title": "ಸುಲಭ ಪ್ರವೇಶ | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 845,
+      "brokenImages": []
+    },
+    {
+      "file": "en-treatment-detail-1440.webp",
+      "path": "/en/services/consultation",
+      "status": 200,
+      "title": "Dental consultation | Sumukha Dental Clinic",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "brokenImages": []
+    },
+    {
+      "file": "en-treatments-approved-1440.webp",
+      "path": "/en/services",
+      "status": 200,
+      "title": "Dental treatments | Sumukha Dental Clinic",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1000,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-treatment-detail-1440.webp",
+      "path": "/kn/services/consultation",
+      "status": 200,
+      "title": "ದಂತ ತಪಾಸಣೆ ಮತ್ತು ಸಮಾಲೋಚನೆ | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1039,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-treatments-approved-1440.webp",
+      "path": "/kn/services",
+      "status": 200,
+      "title": "ದಂತ ಚಿಕಿತ್ಸೆಗಳು | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1040,
+      "brokenImages": []
+    },
+    {
+      "file": "en-treatment-detail-390.webp",
+      "path": "/en/services/consultation",
+      "status": 200,
+      "title": "Dental consultation | Sumukha Dental Clinic",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "brokenImages": []
+    },
+    {
+      "file": "en-treatments-approved-390.webp",
+      "path": "/en/services",
+      "status": 200,
+      "title": "Dental treatments | Sumukha Dental Clinic",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 844,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-treatment-detail-390.webp",
+      "path": "/kn/services/consultation",
+      "status": 200,
+      "title": "ದಂತ ತಪಾಸಣೆ ಮತ್ತು ಸಮಾಲೋಚನೆ | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 845,
+      "brokenImages": []
+    },
+    {
+      "file": "kn-treatments-approved-390.webp",
+      "path": "/kn/services",
+      "status": 200,
+      "title": "ದಂತ ಚಿಕಿತ್ಸೆಗಳು | ಸುಮುಖ ದಂತ ಚಿಕಿತ್ಸಾಲಯ",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 927,
+      "brokenImages": []
+    }
+  ]
+}

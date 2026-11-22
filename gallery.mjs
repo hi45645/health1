@@ -1,3 +1,4 @@
+import { arrowOut } from './views.mjs';
 import { randomBytes } from 'node:crypto';
 import sharp from 'sharp';
 import { audit } from './auth.mjs';
@@ -29,14 +30,26 @@ function galleryItems(db) {
 
 const mediaUrl = id => mediaPrefix + id + '.webp';
 
-export function renderPublicGallery(db, locale) {
-  const images = galleryItems(db);
+export function getGalleryPhoto(db, id, locale) {
+  if (!idPattern.test(id || '')) return null;
+  initGallery(db);
+  const photo = db.prepare('SELECT id, alt_en, alt_kn, width, height FROM gallery_images WHERE id = ?').get(id);
+  return photo ? { ...photo, url: mediaUrl(photo.id), alt: locale === 'kn' ? photo.alt_kn : photo.alt_en } : null;
+}
+
+export function galleryPhotoOptions(db) {
+  return galleryItems(db).map(photo => ({ id: photo.id, label: photo.alt_en }));
+}
+
+export function renderPublicGallery(db, locale, limit = Infinity, showEmptyNotice = true) {
+  const images = galleryItems(db).slice(0, limit);
   if (!images.length) {
-    return `<p class="notice">${locale === 'kn' ? 'ಚಿಕಿತ್ಸಾಲಯದ ಚಿತ್ರಗಳನ್ನು ಇಲ್ಲಿ ಪ್ರಕಟಿಸಲಾಗುತ್ತದೆ.' : 'Clinic photos will appear here when published.'}</p>`;
+    return showEmptyNotice ? `<p class="notice">${locale === 'kn' ? 'ಚಿಕಿತ್ಸಾಲಯದ ಚಿತ್ರಗಳನ್ನು ಇಲ್ಲಿ ಪ್ರಕಟಿಸಲಾಗುತ್ತದೆ.' : 'Clinic photos will appear here when published.'}</p>` : '';
   }
+  const viewLabel = locale === 'kn' ? 'ಪೂರ್ಣ ಗಾತ್ರದ ಚಿತ್ರ ನೋಡಿ' : 'View full-size photo';
   return `<div class="gallery-grid">${images.map(image => {
     const alt = locale === 'kn' ? image.alt_kn : image.alt_en;
-    return `<figure><img src="${mediaUrl(image.id)}" alt="${h(alt)}" width="${image.width}" height="${image.height}" loading="lazy" decoding="async"></figure>`;
+    return `<figure><a href="${mediaUrl(image.id)}" data-gallery-view aria-label="${h(viewLabel + ' · ' + alt)}"><img src="${mediaUrl(image.id)}" alt="${h(alt)}" width="${image.width}" height="${image.height}" loading="lazy" decoding="async"><span class="gallery-enlarge" aria-hidden="true">${arrowOut}</span></a><figcaption>${h(alt)}</figcaption></figure>`;
   }).join('')}</div>`;
 }
 
